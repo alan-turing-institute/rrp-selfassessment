@@ -1,0 +1,20 @@
+# Table of content
+# Learn more at https://jupyterbook.org/customize/toc.html
+#
+- file: introduction
+- file: about
+- file: bias/bias-intro
+  sections:
+    - file: bias/general-biases
+    - file: bias/project-biases
+    - file: bias/model-biases
+    - file: bias/deployment-biases
+- file: transparent-reporting/transparent-reporting
+  sections:
+    - file: transparent-reporting/tr-title
+    - file: transparent-reporting/tr-introduction
+    - file: transparent-reporting/tr-methods
+    - file: transparent-reporting/tr-results
+    - file: transparent-reporting/tr-discussion
+    - file: transparent-reporting/tr-other
+- file: references
