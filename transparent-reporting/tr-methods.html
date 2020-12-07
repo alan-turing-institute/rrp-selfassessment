@@ -1,0 +1,936 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Methods &#8212; Responsible Research Practices Self-Assessment</title>
+    
+  <link rel="stylesheet" href="../_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+  <link rel="stylesheet"
+    href="../_static/vendor/open-sans_all/1.44.1/index.css">
+  <link rel="stylesheet"
+    href="../_static/vendor/lato_latin-ext/1.44.1/index.css">
+
+    
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.2d2078699c18a0efb88233928e1cf6ed.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.3da636dd464baa7582d2.js">
+
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/sphinx-book-theme.be0a4a0c39cd630af62a2fcf693f3f06.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="author" title="About these documents" href="../about.html" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Results" href="tr-results.html" />
+    <link rel="prev" title="Introduction" href="tr-introduction.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="../index.html">
+  
+  <img src="../_static/logo.png" class="logo" alt="logo">
+  
+  
+  <h1 class="site-logo" id="site-title">Responsible Research Practices Self-Assessment</h1>
+  
+</a>
+</div>
+
+<form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form>
+
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  <ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../introduction.html">
+   Introduction
+  </a>
+ </li>
+</ul>
+<ul class="current nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../about.html">
+   About This Guide
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../bias/bias-intro.html">
+   Bias Self-Assessment
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="reference internal" href="transparent-reporting.html">
+   Transparent Reporting Reflect-list
+  </a>
+  <ul class="current">
+   <li class="toctree-l2">
+    <a class="reference internal" href="tr-title.html">
+     Title and Abstract
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="tr-introduction.html">
+     Introduction
+    </a>
+   </li>
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     Methods
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="tr-results.html">
+     Results
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="tr-discussion.html">
+     Discussion
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="tr-other.html">
+     Other
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../references.html">
+   References
+  </a>
+ </li>
+</ul>
+
+</nav>
+
+ <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="row topbar fixed-top container-xl">
+    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
+    </div>
+    <div class="col pl-2 topbar-main">
+        
+        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+            aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+            title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        
+        <div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/transparent-reporting/tr-methods.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+    
+</div>
+        <!-- Source interaction buttons -->
+
+
+        <!-- Full screen (wrap in <a> to have style consistency -->
+        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+                title="Fullscreen mode"><i
+                    class="fas fa-expand"></i></button></a>
+
+        <!-- Launch buttons -->
+
+    </div>
+
+    <!-- Table of contents -->
+    <div class="d-none d-md-block col-md-2 bd-toc show">
+        
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i> Contents
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#a-source-of-data">
+   4a Source of Data
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#b-source-of-data">
+   4b Source of Data
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#a-participants">
+   5a Participants
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#b-participants">
+   5b Participants
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#c-participants">
+   5c Participants
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#a-outcome">
+   6a Outcome
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#b-outcome">
+   6b Outcome
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#a-predictors">
+   7a Predictors
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#b-predictors">
+   7b Predictors
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#sample-size">
+   8 Sample Size
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#missing-data">
+   9 Missing Data
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#a-statistical-analysis-methods">
+   10a Statistical Analysis Methods
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#b-statistical-analysis-methods">
+   10b Statistical Analysis Methods
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#c-statistical-analysis-methods">
+   10c Statistical Analysis Methods
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#d-statistical-analysis-methods">
+   10d Statistical Analysis Methods
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#e-statistical-analysis-methods">
+   10e Statistical Analysis Methods
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#risk-groups">
+   11 Risk Groups
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#development-vs-validation">
+   12 Development vs. Validation
+  </a>
+ </li>
+</ul>
+
+        </nav>
+        
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="methods">
+<h1>Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="a-source-of-data">
+<h2>4a Source of Data<a class="headerlink" href="#a-source-of-data" title="Permalink to this headline">¶</a></h2>
+<div class="admonition-description admonition">
+<p class="admonition-title">Description</p>
+<p>Describe the study design or source of data (e.g., randomized trial, cohort, or registry data), separately for the development and validation data sets, if applicable.</p>
+</div>
+<div class="tabbed-set docutils">
+<input checked="checked" id="1b912073-c58a-485e-92f1-61425e7b8e5b" name="7eca90b5-fa41-427c-a972-3b80792bd522" type="radio">
+</input><label class="tabbed-label" for="1b912073-c58a-485e-92f1-61425e7b8e5b">
+Scientific Rationale</label><div class="tabbed-content docutils">
+<ul class="simple">
+<li><p>Information about the quality of the data, the statistical analyses performed, the sampling strategy and the generalisability of the prediction model help readers determine whether the model should be used in a specific context or how the study can be replicated.</p></li>
+<li><p>Supports critical appraisal of whether the study design and data source were appropriate for the study objective.</p></li>
+</ul>
+</div>
+<input id="9f1d7122-4903-404b-9784-2dc813c405f8" name="7eca90b5-fa41-427c-a972-3b80792bd522" type="radio">
+</input><label class="tabbed-label" for="9f1d7122-4903-404b-9784-2dc813c405f8">
+Ethical Rationale</label><div class="tabbed-content docutils">
+<ul class="simple">
+<li><p>Providing information about the study design helps ensure that possible methodological biases in the data dimension of research design are more easily identified (e.g. ‘allocation bias’).</p></li>
+<li><p>Providing information about the source of data helps evaluate risk of discriminatory harms to patient groups that may be impacted by use of the model.</p></li>
+<li><p>Providing information about sampling methods helps identify risk of bias that may arise from an unrepresentative dataset.</p></li>
+<li><p>Providing details of data collection and sources promotes critical appraisal of ethical issues related to data usage (e.g. Was the data collected adequate for the study? Were principles such as ‘data minimisation’ adhered to?).</p></li>
+</ul>
+</div>
+<input id="2728fdd7-9b87-468b-8480-c87cfce3ac53" name="7eca90b5-fa41-427c-a972-3b80792bd522" type="radio">
+</input><label class="tabbed-label" for="2728fdd7-9b87-468b-8480-c87cfce3ac53">
+Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
+<div class="figure align-default" id="workflow-stage-4a">
+<img alt="../_images/p.png" src="../_images/p.png" />
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="b-source-of-data">
+<h2>4b Source of Data<a class="headerlink" href="#b-source-of-data" title="Permalink to this headline">¶</a></h2>
+<div class="admonition-description admonition">
+<p class="admonition-title">Description</p>
+<p>Specify the key study dates, including start of accrual; end of accrual; and, if applicable, end of follow-up.</p>
+</div>
+<div class="tabbed-set docutils">
+<input checked="checked" id="c6b6262a-1224-46de-a7a3-bd16902e449e" name="94e1f600-391d-4d8d-8d57-ec42eefa881d" type="radio">
+</input><label class="tabbed-label" for="c6b6262a-1224-46de-a7a3-bd16902e449e">
+Scientific Rationale</label><div class="tabbed-content docutils">
+<ul class="simple">
+<li><p>Reporting the date interval situates the study within a historical and temporal context, which is critical in prognostic studies, and may provide additional information salient to the study’s objectives or further research (e.g. additional validation studies).</p></li>
+</ul>
+</div>
+<input id="08596803-2ae9-4b65-8a28-38470f47d073" name="94e1f600-391d-4d8d-8d57-ec42eefa881d" type="radio">
+</input><label class="tabbed-label" for="08596803-2ae9-4b65-8a28-38470f47d073">
+Ethical Rationale</label><div class="tabbed-content docutils">
+<ul class="simple">
+<li><p>Promotes sustainability of research by supporting replication and future advances (e.g. information about temporal context may allow future research to deduce which medical technologies were available in this period for measuring certain predictors and to determine whether/how newer technologies differ in performance).</p></li>
+</ul>
+</div>
+<input id="10be366a-c01b-4cbb-bfba-b976c1ef4e2d" name="94e1f600-391d-4d8d-8d57-ec42eefa881d" type="radio">
+</input><label class="tabbed-label" for="10be366a-c01b-4cbb-bfba-b976c1ef4e2d">
+Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
+<div class="figure align-default" id="workflow-stage-4b">
+<img alt="../_images/p.png" src="../_images/p.png" />
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="a-participants">
+<h2>5a Participants<a class="headerlink" href="#a-participants" title="Permalink to this headline">¶</a></h2>
+<div class="admonition-description admonition">
+<p class="admonition-title">Description</p>
+<p>Specify key elements of the study setting (e.g., primary care, secondary care, general population) including number and location of centres.</p>
+</div>
+<div class="tabbed-set docutils">
+<input checked="checked" id="c4a46e44-9e9d-4af5-a6d4-37eb097d0931" name="e7c14f02-1410-4d4f-81a6-a90b33872ea9" type="radio">
+</input><label class="tabbed-label" for="c4a46e44-9e9d-4af5-a6d4-37eb097d0931">
+Scientific Rationale</label><div class="tabbed-content docutils">
+<ul class="simple">
+<li><p>Prediction models are developed and validated in a particular medical context (e.g. primary, secondary, or tertiary care), with varying distribution of predictors, participant or setting characteristics, and outcome prevalence or incidence. A detailed description of the study setting is important for assessing the generalisability, transportability and efficacy of the model to additional contexts. Consider including a table summarising the key elements of the study characteristics for the development
+and any validation sample, to provide the reader insight into any differences in case mix and its potential consequences.</p></li>
+</ul>
+</div>
+<input id="d23783d2-5ab9-49fb-b19c-37576712d2c0" name="e7c14f02-1410-4d4f-81a6-a90b33872ea9" type="radio">
+</input><label class="tabbed-label" for="d23783d2-5ab9-49fb-b19c-37576712d2c0">
+Ethical Rationale</label><div class="tabbed-content docutils">
+<ul class="simple">
+<li><p>The predictive performance of a model will likely vary across contexts. As such, details of the study settings can help identify and mitigate the risk of discriminatory harm that could arise from deployment of the model outside of its original context and in situations where the “case mix” (the participant or setting characteristics, outcome prevalence, and predictor distribution) of the study differs from that of  the target population.</p></li>
+<li><p>Information about the study setting also supports comparative assessments of how a model supports ethical goals of fairness  (e.g. comparative performance of multiple models based on how they advance overall public health equity—this is important for policy decisions)</p></li>
+</ul>
+</div>
+<input id="d59b765c-fb21-422b-9df3-0888b6cc0432" name="e7c14f02-1410-4d4f-81a6-a90b33872ea9" type="radio">
+</input><label class="tabbed-label" for="d59b765c-fb21-422b-9df3-0888b6cc0432">
+Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
+<div class="figure align-default" id="workflow-stage-5a">
+<img alt="../_images/p.png" src="../_images/p.png" />
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="b-participants">
+<h2>5b Participants<a class="headerlink" href="#b-participants" title="Permalink to this headline">¶</a></h2>
+<div class="admonition-description admonition">
+<p class="admonition-title">Description</p>
+<p>Describe eligibility criteria for participants.</p>
+</div>
+<div class="tabbed-set docutils">
+<input checked="checked" id="49136ddb-e11b-4e42-b6ee-3281499ed7a0" name="6f4e0544-cc0a-4705-a59b-aa15f587aa3e" type="radio">
+</input><label class="tabbed-label" for="49136ddb-e11b-4e42-b6ee-3281499ed7a0">
+Scientific Rationale</label><div class="tabbed-content docutils">
+<ul class="simple">
+<li><p>Information about the eligibility criteria is necessary for understanding the potential applicability and generalisability of the prediction model.</p></li>
+</ul>
+</div>
+<input id="1d2557a0-7b15-4f30-8af6-9cd6900e9bc0" name="6f4e0544-cc0a-4705-a59b-aa15f587aa3e" type="radio">
+</input><label class="tabbed-label" for="1d2557a0-7b15-4f30-8af6-9cd6900e9bc0">
+Ethical Rationale</label><div class="tabbed-content docutils">
+<ul class="simple">
+<li><p>Information about the eligibility criteria can help identify possible biases that may impact the predictive performance of the model (e.g. ‘performance bias’ or statistical bias arising from handling of missing data).</p></li>
+</ul>
+</div>
+<input id="676a3ee1-a67d-4f72-992f-9a99da8307c1" name="6f4e0544-cc0a-4705-a59b-aa15f587aa3e" type="radio">
+</input><label class="tabbed-label" for="676a3ee1-a67d-4f72-992f-9a99da8307c1">
+Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
+<div class="figure align-default" id="workflow-stage-5b">
+<img alt="../_images/p.png" src="../_images/p.png" />
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="c-participants">
+<h2>5c Participants<a class="headerlink" href="#c-participants" title="Permalink to this headline">¶</a></h2>
+<div class="admonition-description admonition">
+<p class="admonition-title">Description</p>
+<p>Give details of treatments received, if relevant.</p>
+</div>
+<div class="tabbed-set docutils">
+<input checked="checked" id="7fecbf87-837b-4bd7-b1a0-ac3f886a6347" name="11df726e-7e7a-48b1-934f-758bec47928b" type="radio">
+</input><label class="tabbed-label" for="7fecbf87-837b-4bd7-b1a0-ac3f886a6347">
+Scientific Rationale</label><div class="tabbed-content docutils">
+<ul class="simple">
+<li><p>Details about any treatment received by individuals is necessary to understand how the treatment could affect health outcomes being studied or how it could have been influenced by the same predictors that are included in the statistical modelling.</p></li>
+</ul>
+</div>
+<input id="28f49230-4b06-4bd9-b133-96d37993c4dc" name="11df726e-7e7a-48b1-934f-758bec47928b" type="radio">
+</input><label class="tabbed-label" for="28f49230-4b06-4bd9-b133-96d37993c4dc">
+Ethical Rationale</label><div class="tabbed-content docutils">
+<ul class="simple">
+<li><p>Accurate reporting of treatments received is vital for the assessment of the model’s performance and to determine the clinical efficacy of using the model in a particular context. Failing to specify this information may result in the misuse of the model, leading to avoidable harm to patients or wasted clinical resources.</p></li>
+</ul>
+</div>
+<input id="87fc3c0d-a451-401a-a2bb-0cc381207096" name="11df726e-7e7a-48b1-934f-758bec47928b" type="radio">
+</input><label class="tabbed-label" for="87fc3c0d-a451-401a-a2bb-0cc381207096">
+Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
+<div class="figure align-default" id="workflow-stage-5c">
+<img alt="../_images/p.png" src="../_images/p.png" />
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="a-outcome">
+<h2>6a Outcome<a class="headerlink" href="#a-outcome" title="Permalink to this headline">¶</a></h2>
+<div class="admonition-description admonition">
+<p class="admonition-title">Description</p>
+<p>Clearly define the outcome that is predicted by the prediction model, including how and when assessed.</p>
+</div>
+<div class="tabbed-set docutils">
+<input checked="checked" id="a55b909f-116d-4c37-a654-b7f51b9b8c6d" name="2a850ca3-2c7e-4e52-a902-856e09486e96" type="radio">
+</input><label class="tabbed-label" for="a55b909f-116d-4c37-a654-b7f51b9b8c6d">
+Scientific Rationale</label><div class="tabbed-content docutils">
+<ul class="simple">
+<li><p>Unambiguous details about the health outcome and the reference standard used to determine the outcome (e.g. radiology assesments) are central components of the prediction model. Inadequate or inconsistent details about the predicted outcomes can prevent future research from validating the model, replicating the study, or using the model effectively.</p></li>
+</ul>
+</div>
+<input id="cf1e1dd2-6a85-4c92-b629-ba61bdf98e16" name="2a850ca3-2c7e-4e52-a902-856e09486e96" type="radio">
+</input><label class="tabbed-label" for="cf1e1dd2-6a85-4c92-b629-ba61bdf98e16">
+Ethical Rationale</label><div class="tabbed-content docutils">
+<ul class="simple">
+<li><p>Details about the reference standard used to determine the outcome can be a valuable source of information for detecting and mitigating biases that arise in the collection of data (e.g. different assesment practices in multi-site studies that affect the consistency of the data). Clear presentation of outcome defintion can also enable a higher degree of transparency about label choice allowing for easier peer evaluation of its validity.</p></li>
+</ul>
+</div>
+<input id="5c4366ac-0d8a-4eaa-9197-2c8c41fe118f" name="2a850ca3-2c7e-4e52-a902-856e09486e96" type="radio">
+</input><label class="tabbed-label" for="5c4366ac-0d8a-4eaa-9197-2c8c41fe118f">
+Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
+<div class="figure align-default" id="workflow-stage-6a">
+<img alt="../_images/p-m.png" src="../_images/p-m.png" />
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="b-outcome">
+<h2>6b Outcome<a class="headerlink" href="#b-outcome" title="Permalink to this headline">¶</a></h2>
+<div class="admonition-description admonition">
+<p class="admonition-title">Description</p>
+<p>Report any actions to blind assessment of the outcome to be predicted.</p>
+</div>
+<div class="tabbed-set docutils">
+<input checked="checked" id="ece03f75-c4e3-4226-9be3-ccf922888385" name="5f7ffbe8-0fb9-4d45-a3cd-f2d0ebc99b4d" type="radio">
+</input><label class="tabbed-label" for="ece03f75-c4e3-4226-9be3-ccf922888385">
+Scientific Rationale</label><div class="tabbed-content docutils">
+<ul class="simple">
+<li><p>Prior knowledge of the predictors being studied can influence the outcome assessment by clinicians, leading to a biased estimation of the association between predictors and outcomes, most notably when the outcome assessment requires interpretation (e.g. cause-specific death, consensus diagnosis). As such, it is important to report any actions taken to blind the assesment of the outcome to be predicted.</p></li>
+</ul>
+</div>
+<input id="b256814d-cc0e-42ca-9236-9cb076851b15" name="5f7ffbe8-0fb9-4d45-a3cd-f2d0ebc99b4d" type="radio">
+</input><label class="tabbed-label" for="b256814d-cc0e-42ca-9236-9cb076851b15">
+Ethical Rationale</label><div class="tabbed-content docutils">
+<ul class="simple">
+<li><p>Failure to specify actions to blind assessment can lead to an over-optimistic assessment of the model’s performance, leading to performance deficiencies that may cause harm and  inappropriate use or deployment of the model.</p></li>
+<li><p>Providing information about actions taken to blind assessment can help uncover, identify and mitigate possible biases that could impact performance of the model (e.g. ‘observer bias’).</p></li>
+</ul>
+</div>
+<input id="6ee03d33-b0e7-4c4a-bbe1-5520790f5a48" name="5f7ffbe8-0fb9-4d45-a3cd-f2d0ebc99b4d" type="radio">
+</input><label class="tabbed-label" for="6ee03d33-b0e7-4c4a-bbe1-5520790f5a48">
+Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
+<div class="figure align-default" id="workflow-stage-6b">
+<img alt="../_images/p.png" src="../_images/p.png" />
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="a-predictors">
+<h2>7a Predictors<a class="headerlink" href="#a-predictors" title="Permalink to this headline">¶</a></h2>
+<div class="admonition-description admonition">
+<p class="admonition-title">Description</p>
+<p>Clearly define all predictors used in developing or validating the multivariable prediction model, including how and when they were measured.</p>
+</div>
+<div class="tabbed-set docutils">
+<input checked="checked" id="82595a1b-9d1c-41a3-945f-ec17c6cfc67c" name="9e053194-4065-486f-880b-285019b0d185" type="radio">
+</input><label class="tabbed-label" for="82595a1b-9d1c-41a3-945f-ec17c6cfc67c">
+Scientific Rationale</label><div class="tabbed-content docutils">
+<ul class="simple">
+<li><p>Defining the predictors in an unambiguous manner, including how and when the predictors were measured, is vital to ensure that future investigators can replicate the study, and validate or implement the model.</p></li>
+</ul>
+</div>
+<input id="56f220b6-6769-4229-a8dd-562ab272128d" name="9e053194-4065-486f-880b-285019b0d185" type="radio">
+</input><label class="tabbed-label" for="56f220b6-6769-4229-a8dd-562ab272128d">
+Ethical Rationale</label><div class="tabbed-content docutils">
+<ul class="simple">
+<li><p>Clearly and concisely defining predictors supports the interpretability and reproducibility of a prediction model. It also facilitates critical assessment, future improvement and reevaluation.</p></li>
+</ul>
+</div>
+<input id="59813d14-3b1b-48d3-a68d-67c688ce3c01" name="9e053194-4065-486f-880b-285019b0d185" type="radio">
+</input><label class="tabbed-label" for="59813d14-3b1b-48d3-a68d-67c688ce3c01">
+Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
+<div class="figure align-default" id="workflow-stage-7a">
+<img alt="../_images/p-m.png" src="../_images/p-m.png" />
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="b-predictors">
+<h2>7b Predictors<a class="headerlink" href="#b-predictors" title="Permalink to this headline">¶</a></h2>
+<div class="admonition-description admonition">
+<p class="admonition-title">Description</p>
+<p>Report any actions to blind assessment of predictors for the outcome and other predictors.</p>
+</div>
+<div class="tabbed-set docutils">
+<input checked="checked" id="f41b6016-c548-4eba-b6a5-dd856fc8f4ad" name="4c741321-e911-46d3-b214-5398f98988fd" type="radio">
+</input><label class="tabbed-label" for="f41b6016-c548-4eba-b6a5-dd856fc8f4ad">
+Scientific Rationale</label><div class="tabbed-content docutils">
+<ul class="simple">
+<li><p>In certain contexts, assessment of predictors may require subjective judgement (e.g. assessment of imaging results). Knowledge of the outcome, therefore, could artificially increase the association between the outcome and the predictors, and knowledge of other predictors may bias the interpretation of specific predictors.</p></li>
+</ul>
+</div>
+<input id="0a0fce17-f3a9-41f4-b5da-522a0fc2d64f" name="4c741321-e911-46d3-b214-5398f98988fd" type="radio">
+</input><label class="tabbed-label" for="0a0fce17-f3a9-41f4-b5da-522a0fc2d64f">
+Ethical Rationale</label><div class="tabbed-content docutils">
+<ul class="simple">
+<li><p>Failure to specify actions to blind assessment can lead to an over-optimistic assessment of the model’s performance, leading to inappropriate use or deployment of the model.</p></li>
+<li><p>Providing information about actions taken to blind assessment can help uncover and identify possible biases that could impact performance of the model (e.g. ‘observer bias’)</p></li>
+</ul>
+</div>
+<input id="e5af4efd-2afd-4f5c-aa43-6ee50dd08a9b" name="4c741321-e911-46d3-b214-5398f98988fd" type="radio">
+</input><label class="tabbed-label" for="e5af4efd-2afd-4f5c-aa43-6ee50dd08a9b">
+Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
+<div class="figure align-default" id="workflow-stage-7b">
+<img alt="../_images/p-m.png" src="../_images/p-m.png" />
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="sample-size">
+<h2>8 Sample Size<a class="headerlink" href="#sample-size" title="Permalink to this headline">¶</a></h2>
+<div class="admonition-description admonition">
+<p class="admonition-title">Description</p>
+<p>Explain how the study size was arrived at.</p>
+</div>
+<div class="tabbed-set docutils">
+<input checked="checked" id="a2ddacc2-1042-4005-8a30-4992c0e07e74" name="29d8032a-2c18-43f2-a2a5-a5cf9153f65a" type="radio">
+</input><label class="tabbed-label" for="a2ddacc2-1042-4005-8a30-4992c0e07e74">
+Scientific Rationale</label><div class="tabbed-content docutils">
+<ul class="simple">
+<li><p>Details about the number of outcome events and the sample size are vital for assessing the performance of the model (e.g. whether the performance is overestimated given the effective sample size). This is a particular issue when a model is developed and assessed for its predictive accuracy on the same data set with a small sample as the model’s performance will likely be overestimated.</p></li>
+</ul>
+</div>
+<input id="1462457e-e052-4a44-b988-a22c088e69db" name="29d8032a-2c18-43f2-a2a5-a5cf9153f65a" type="radio">
+</input><label class="tabbed-label" for="1462457e-e052-4a44-b988-a22c088e69db">
+Ethical Rationale</label><div class="tabbed-content docutils">
+<ul class="simple">
+<li><p>Accurate and adequate information about a model’s performance helps determine whether there is a risk of statistical bias (e.g. from overfitting), which could impact the clinical efficacy of the model. Having proper mechanisms of validation is essential for building confidence among clinicians about the trustworthiness of a model.</p></li>
+</ul>
+</div>
+<input id="4b18b0e2-d843-4a83-b73a-c27cbc738f92" name="29d8032a-2c18-43f2-a2a5-a5cf9153f65a" type="radio">
+</input><label class="tabbed-label" for="4b18b0e2-d843-4a83-b73a-c27cbc738f92">
+Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
+<div class="figure align-default" id="workflow-stage-8">
+<img alt="../_images/p.png" src="../_images/p.png" />
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="missing-data">
+<h2>9 Missing Data<a class="headerlink" href="#missing-data" title="Permalink to this headline">¶</a></h2>
+<div class="admonition-description admonition">
+<p class="admonition-title">Description</p>
+<p>Describe how missing data were handled (e.g., complete-case analysis, single imputation, multiple imputation) with details of any imputation method.</p>
+</div>
+<div class="tabbed-set docutils">
+<input checked="checked" id="1f316827-8750-4924-a302-8af6e14ba920" name="c94c3431-cdcb-44f7-91f8-fae6e24a89a6" type="radio">
+</input><label class="tabbed-label" for="1f316827-8750-4924-a302-8af6e14ba920">
+Scientific Rationale</label><div class="tabbed-content docutils">
+<ul class="simple">
+<li><p>It should not be assumed that absence of a description about how missing data was handled implies that participants with missing data have been omitted from any analyses. This absence should be avoided through transparent reporting when a model has used any imputation methods to address issues that have are missing outcome or predictor data. Furthermore, including only participants with complete data is both inefficient (i.e. reducing effective sample size) and may lead to biased results when the remaining individuals are not representative of the original study sample.</p></li>
+</ul>
+</div>
+<input id="76994f80-2552-4a5a-acbe-91140784051b" name="c94c3431-cdcb-44f7-91f8-fae6e24a89a6" type="radio">
+</input><label class="tabbed-label" for="76994f80-2552-4a5a-acbe-91140784051b">
+Ethical Rationale</label><div class="tabbed-content docutils">
+<ul class="simple">
+<li><p>Reporting how missing data was handled (i.e. details of the imputation method selected in a software package; rationale for excluding particular individuals) can help identify biases (e.g. ‘selection bias’) that may impact the outcomes of using the model in a clinical context.</p></li>
+</ul>
+</div>
+<input id="0c5e0547-d130-4219-8619-941ec1156c61" name="c94c3431-cdcb-44f7-91f8-fae6e24a89a6" type="radio">
+</input><label class="tabbed-label" for="0c5e0547-d130-4219-8619-941ec1156c61">
+Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
+<div class="figure align-default" id="workflow-stage-9">
+<img alt="../_images/p.png" src="../_images/p.png" />
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="a-statistical-analysis-methods">
+<h2>10a Statistical Analysis Methods<a class="headerlink" href="#a-statistical-analysis-methods" title="Permalink to this headline">¶</a></h2>
+<div class="admonition-description admonition">
+<p class="admonition-title">Description</p>
+<p>Describe how predictors were handled in the analyses.</p>
+</div>
+<div class="tabbed-set docutils">
+<input checked="checked" id="22b0d432-f607-48d7-a897-e8c79639d71a" name="7b03af04-1b0e-4daf-a8dc-6b0e884296b6" type="radio">
+</input><label class="tabbed-label" for="22b0d432-f607-48d7-a897-e8c79639d71a">
+Scientific Rationale</label><div class="tabbed-content docutils">
+<ul class="simple">
+<li><p>If a continuous variable has been converted into a categorical variable, details about the cut points and how they were chosen should be reported to allow readers to evaluate whether the information loss was significant enough to impact the performance of the model and whether the decision was justified given the objective (e.g. to segment individuals into distinct risk groups). Likewise, if predictors have been grouped, separated, or recategorised, this should be clearly reported along with the rationale for doing so.</p></li>
+</ul>
+</div>
+<input id="e62834d3-846a-4b2e-a912-6d78b4aec62f" name="7b03af04-1b0e-4daf-a8dc-6b0e884296b6" type="radio">
+</input><label class="tabbed-label" for="e62834d3-846a-4b2e-a912-6d78b4aec62f">
+Ethical Rationale</label><div class="tabbed-content docutils">
+<ul class="simple">
+<li><p>Information about how predictors were handled supports the critical appraisal of the study against several ethical benchmarks, including privacy (e.g. was the choice to categorise a variable motivated by privacy concerns related to risk of deanonymisation?) and responsibility (e.g. does the potential loss of information cause difficulties for researchers wishing to be responsive to future updating of the model?). Moreover choices to aggregate, bunch, or break up predictors may reflect biases that cause discriminatory harm, so transparently reporting the reasoning behind such choices is crucial.</p></li>
+</ul>
+</div>
+<input id="e7ee6588-5158-454e-b1fb-ef2d97083500" name="7b03af04-1b0e-4daf-a8dc-6b0e884296b6" type="radio">
+</input><label class="tabbed-label" for="e7ee6588-5158-454e-b1fb-ef2d97083500">
+Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
+<div class="figure align-default" id="workflow-stage-10a">
+<img alt="../_images/p-m.png" src="../_images/p-m.png" />
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="b-statistical-analysis-methods">
+<h2>10b Statistical Analysis Methods<a class="headerlink" href="#b-statistical-analysis-methods" title="Permalink to this headline">¶</a></h2>
+<div class="admonition-description admonition">
+<p class="admonition-title">Description</p>
+<p>Specify type of model, all model-building procedures (including any predictor selection), and method for internal validation.</p>
+</div>
+<div class="tabbed-set docutils">
+<input checked="checked" id="5d15e205-cfc0-4dac-acb3-309ae6acf803" name="9d213372-5095-45ab-9986-7b97e863076f" type="radio">
+</input><label class="tabbed-label" for="5d15e205-cfc0-4dac-acb3-309ae6acf803">
+Scientific Rationale</label><div class="tabbed-content docutils">
+<ul class="simple">
+<li><p>Details about the type of model (e.g. regression model or support vector machine) support subsequent comparison studies exploring relative performance of different models.</p></li>
+<li><p>Details about predictor selection (e.g. rationale for excluding specific predictors a priori from the full set of available predictors; details about whether this was performed before or during modelling) inform readers about potential biases in the selection process. Furthermore, if the predictors were selected following examination of their interactions (e.g. selecting only the strongest), this can provide clues about possible overfitting.</p></li>
+<li><p>Presenting details about the internal validation method chosen (e.g. cross-validation or bootstrapping) allows readers to appreciate the apparent performance of the model in the context of any further external validation.</p></li>
+</ul>
+</div>
+<input id="0e5e59c5-bf1b-40e0-aa0f-b49cbd8367c3" name="9d213372-5095-45ab-9986-7b97e863076f" type="radio">
+</input><label class="tabbed-label" for="0e5e59c5-bf1b-40e0-aa0f-b49cbd8367c3">
+Ethical Rationale</label><div class="tabbed-content docutils">
+<ul class="simple">
+<li><p>Information about the type of model used is important for justifying ethical decisions that may arise in the context of explainability. For example, whether the loss of interpretability stemming from use of a complex or opaque model was justified based on the increased performance metrics.</p></li>
+<li><p>Design choices related to the model architecture can introduce a range of biases that may result in discriminatory harm to patients from protected groups. Providing sufficient information promotes transparency and accountability.</p></li>
+</ul>
+</div>
+<input id="d2dadeaf-54b5-47e7-b1c6-eee640debe03" name="9d213372-5095-45ab-9986-7b97e863076f" type="radio">
+</input><label class="tabbed-label" for="d2dadeaf-54b5-47e7-b1c6-eee640debe03">
+Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
+<div class="figure align-default" id="workflow-stage-10b">
+<img alt="../_images/p-m.png" src="../_images/p-m.png" />
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="c-statistical-analysis-methods">
+<h2>10c Statistical Analysis Methods<a class="headerlink" href="#c-statistical-analysis-methods" title="Permalink to this headline">¶</a></h2>
+<div class="admonition-description admonition">
+<p class="admonition-title">Description</p>
+<p>For validation, describe how the predictions were calculated.</p>
+</div>
+<div class="tabbed-set docutils">
+<input checked="checked" id="7ee3bb90-7696-41b2-9b75-00edbf3ec871" name="262815b9-f60d-42ff-9e85-03b688c07d64" type="radio">
+</input><label class="tabbed-label" for="7ee3bb90-7696-41b2-9b75-00edbf3ec871">
+Scientific Rationale</label><div class="tabbed-content docutils">
+<ul class="simple">
+<li><p>Evaluating the performance of an existing prediction model for a new set of individuals is a comparative process (i.e. making predictions from the original model and comparing with the outcomes from the validation data set). Therefore, the authors need to state how the predictions were calculated to allow readers to critically assess and evaluate the validation study.</p></li>
+</ul>
+</div>
+<input id="cf2300bd-79fc-48d3-ae63-23f4b1512d8b" name="262815b9-f60d-42ff-9e85-03b688c07d64" type="radio">
+</input><label class="tabbed-label" for="cf2300bd-79fc-48d3-ae63-23f4b1512d8b">
+Ethical Rationale</label><div class="tabbed-content docutils">
+<ul class="simple">
+<li><p>A robust, useable, and reproducible model will facilitate evaluation and validation. This is a critical element of its sustainability and of the continuous process of understanding how models can safely evolve and be revised and improved in the midst of shifts in underlying data distributions.</p></li>
+</ul>
+</div>
+<input id="9addff9a-6f3e-43bc-851f-4a6aab635b16" name="262815b9-f60d-42ff-9e85-03b688c07d64" type="radio">
+</input><label class="tabbed-label" for="9addff9a-6f3e-43bc-851f-4a6aab635b16">
+Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
+<div class="figure align-default" id="workflow-stage-10c">
+<img alt="../_images/m.png" src="../_images/m.png" />
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="d-statistical-analysis-methods">
+<h2>10d Statistical Analysis Methods<a class="headerlink" href="#d-statistical-analysis-methods" title="Permalink to this headline">¶</a></h2>
+<div class="admonition-description admonition">
+<p class="admonition-title">Description</p>
+<p>Specify all measures used to assess model performance and, if relevant, to compare multiple models.</p>
+</div>
+<div class="tabbed-set docutils">
+<input checked="checked" id="091aa8e2-79b2-460d-a06c-cb1c1a4a06d3" name="85382383-a07d-41a4-ba96-03676d874e5c" type="radio">
+</input><label class="tabbed-label" for="091aa8e2-79b2-460d-a06c-cb1c1a4a06d3">
+Scientific Rationale</label><div class="tabbed-content docutils">
+<ul class="simple">
+<li><p>There are various measures of model performance (e.g. calibration and discrimination), which have varying strengths and weaknesses conditional on the context employed. As such, details about the measures used and a justification of the rationale for selecting them helps readers assess whether the measures are adequate for the purpose of the study.</p></li>
+</ul>
+</div>
+<input id="5260c158-c9f3-4c47-9ee1-93ea67e3f69c" name="85382383-a07d-41a4-ba96-03676d874e5c" type="radio">
+</input><label class="tabbed-label" for="5260c158-c9f3-4c47-9ee1-93ea67e3f69c">
+Ethical Rationale</label><div class="tabbed-content docutils">
+<ul class="simple">
+<li><p>Discrimination refers to the ability of a model to differentiate between classes of individuals who do or do not experience the outcome event being studied. A model’s performance (measured as discriminatory ability) may differ across sub-groups of the population, leading to discriminatory harm for protected or minority groups. Reporting these measures is therefore a crucial part of justifying and evaluating a model’s fairness. However, as discrimination and calibration are statistical properties, neither captures the clinical consequences of implementing a biased model in a particular context, but require a fuller understanding of the sociotechnical system in which the model is deployed—perhaps alongside complementary methods such as decision curve analysis. In addition, clear specification of performance measure and uncertainty metrics will foster the useability and interpretability of the model on the clinical side. A clear understanding of model performance and its limitations is a hallmark of responsible implementation.</p></li>
+</ul>
+</div>
+<input id="93aaa27c-e277-4e72-adc2-bbf43cb27b01" name="85382383-a07d-41a4-ba96-03676d874e5c" type="radio">
+</input><label class="tabbed-label" for="93aaa27c-e277-4e72-adc2-bbf43cb27b01">
+Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
+<div class="figure align-default" id="workflow-stage-10d">
+<img alt="../_images/m.png" src="../_images/m.png" />
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="e-statistical-analysis-methods">
+<h2>10e Statistical Analysis Methods<a class="headerlink" href="#e-statistical-analysis-methods" title="Permalink to this headline">¶</a></h2>
+<div class="admonition-description admonition">
+<p class="admonition-title">Description</p>
+<p>Describe any model updating (e.g., recalibration) arising from the validation, if done.</p>
+</div>
+<div class="tabbed-set docutils">
+<input checked="checked" id="7d2ae195-edda-4e65-8966-df8dc75bd1db" name="64943348-d31a-4cad-903c-f6205715c353" type="radio">
+</input><label class="tabbed-label" for="7d2ae195-edda-4e65-8966-df8dc75bd1db">
+Scientific Rationale</label><div class="tabbed-content docutils">
+<ul class="simple">
+<li><p>Predictive performance of a model can decrease when validating a model in a different setting (i.e. geographically different individuals). If a model is subsequently updated in response to this validation it is important to report the methods by which the model was updated to allow reviewers to critically evaluate the study and subsequent performance of the updated model.</p></li>
+</ul>
+</div>
+<input id="b2f7aa42-0bd6-4565-aa44-89af2e805f39" name="64943348-d31a-4cad-903c-f6205715c353" type="radio">
+</input><label class="tabbed-label" for="b2f7aa42-0bd6-4565-aa44-89af2e805f39">
+Ethical Rationale</label><div class="tabbed-content docutils">
+<ul class="simple">
+<li><p>A model being used in changing environments where underlying populations may differ or change needs to be treated as a “living” system and adapted accordingly to remain safe and sustainable. This process of updating and recalibration must be undertaken in a maximally transparent and well-documented way, so that changes made to an existing model can be assessed and critically evaluated.</p></li>
+</ul>
+</div>
+<input id="a76e4a24-2bfe-42b6-9d44-a7f7bc513ce0" name="64943348-d31a-4cad-903c-f6205715c353" type="radio">
+</input><label class="tabbed-label" for="a76e4a24-2bfe-42b6-9d44-a7f7bc513ce0">
+Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
+<div class="figure align-default" id="workflow-stage-10e">
+<img alt="../_images/m.png" src="../_images/m.png" />
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="risk-groups">
+<h2>11 Risk Groups<a class="headerlink" href="#risk-groups" title="Permalink to this headline">¶</a></h2>
+<div class="admonition-description admonition">
+<p class="admonition-title">Description</p>
+<p>Provide details on how risk groups were created, if done.</p>
+</div>
+<div class="tabbed-set docutils">
+<input checked="checked" id="f19b866c-3438-455a-a1fe-badd674f13ff" name="0f2496bc-bff2-4b0c-b1a4-ea0c6431e4a3" type="radio">
+</input><label class="tabbed-label" for="f19b866c-3438-455a-a1fe-badd674f13ff">
+Scientific Rationale</label><div class="tabbed-content docutils">
+<ul class="simple">
+<li><p>As there is no clear consensus on how to create risk groups or how many to use, it is vital that authors present details about how they were chosen and how thresholds between them were determined to enable subsequent assessment or replication of the prediction study.</p></li>
+</ul>
+</div>
+<input id="56732f15-f4d6-48de-afcb-30b1a58a9060" name="0f2496bc-bff2-4b0c-b1a4-ea0c6431e4a3" type="radio">
+</input><label class="tabbed-label" for="56732f15-f4d6-48de-afcb-30b1a58a9060">
+Ethical Rationale</label><div class="tabbed-content docutils">
+<ul class="simple">
+<li><p>Where the distribution of risk groups is intended to support clinical decision-making, the rationale for the choice of thresholds provides important information that can be used to identify potential misuse of the decision tool (e.g. cognitive or discriminatory biases that lead to the disproportionate harm of a particular risk group). Clear description of risk group determination is also necessary to support the explainability and interpretability of the model in clinical decision-support environments.</p></li>
+</ul>
+</div>
+<input id="2ba87079-5280-412b-a200-3b058cd2c4f6" name="0f2496bc-bff2-4b0c-b1a4-ea0c6431e4a3" type="radio">
+</input><label class="tabbed-label" for="2ba87079-5280-412b-a200-3b058cd2c4f6">
+Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
+<div class="figure align-default" id="workflow-stage-11">
+<img alt="../_images/p.png" src="../_images/p.png" />
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="development-vs-validation">
+<h2>12 Development vs. Validation<a class="headerlink" href="#development-vs-validation" title="Permalink to this headline">¶</a></h2>
+<div class="admonition-description admonition">
+<p class="admonition-title">Description</p>
+<p>For validation, identify any differences from the development data in setting, eligibility criteria, outcome, and predictors.</p>
+</div>
+<div class="tabbed-set docutils">
+<input checked="checked" id="ef137ee5-b5e9-4174-ad4d-49838e500ca4" name="6144cb2f-309b-4017-82bc-f90056cba814" type="radio">
+</input><label class="tabbed-label" for="ef137ee5-b5e9-4174-ad4d-49838e500ca4">
+Scientific Rationale</label><div class="tabbed-content docutils">
+<ul class="simple">
+<li><p>Authors of validation studies should clearly report any modifications in setting, eligibility criteria, predictors, outcome definition and measurement, and how these differences were handled, as such modifications could impact on the veracity of the validation study.</p></li>
+</ul>
+</div>
+<input id="e8f5707e-d7dc-4f22-b9c3-cb79568139a4" name="6144cb2f-309b-4017-82bc-f90056cba814" type="radio">
+</input><label class="tabbed-label" for="e8f5707e-d7dc-4f22-b9c3-cb79568139a4">
+Ethical Rationale</label><div class="tabbed-content docutils">
+<ul class="simple">
+<li><p>A robust, useable, and reproducible model will facilitate iterative evaluation and validation. This is a critical element of its sustainability and of the continuous process of understanding how models can safely evolve and be revised and improved in the midst of shifts in underlying data distributions.</p></li>
+</ul>
+</div>
+<input id="2a67a55f-942f-405e-823e-7f7bf8578de3" name="6144cb2f-309b-4017-82bc-f90056cba814" type="radio">
+</input><label class="tabbed-label" for="2a67a55f-942f-405e-823e-7f7bf8578de3">
+Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
+<div class="figure align-default" id="workflow-stage-12">
+<img alt="../_images/m.png" src="../_images/m.png" />
+</div>
+</div>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./transparent-reporting"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        </div>
+    </div>
+    
+    
+    <div class='prev-next-bottom'>
+        
+    <a class='left-prev' id="prev-link" href="tr-introduction.html" title="previous page">Introduction</a>
+    <a class='right-next' id="next-link" href="tr-results.html" title="next page">Results</a>
+
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By Ethics Theme, Public Policy Programme<br/>
+        
+            &copy; Copyright 2020.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    
+  <script src="../_static/js/index.3da636dd464baa7582d2.js"></script>
+
+
+    
+  </body>
+</html>
