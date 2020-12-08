@@ -56,7 +56,7 @@ Related biases: {ref}`bias:representation`, {ref}`bias:chronological`
 
 ```{admonition} Definition
 :class: dropdown
-Data may be missing for a variety of reasons[^1], which can make an
+Data may be missing for a variety of reasons, which can make an
 accurate predictions or classifications challenging to produce. In a
 clinical context, missing data may be the result of non-random but
 statistically informative events (e.g. patients with fewer vital signs
