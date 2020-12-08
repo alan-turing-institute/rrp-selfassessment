@@ -7,7 +7,7 @@ tags: transparent reporting
 In {cite}`collins2015`, Gary Collins et al. introduced the TRIPOD Statement—a checklist of 22 items they deemed "essential for transparent reporting
 of a prediction model study". The purpose of the TRIPOD Statement was to improve the transparency of reporting of prediction model studies by providing a systematic procedure that all prediction model studies should complete, regardless of their study methodology.
 
-In a more recent review of the published and preprint reports of COVID-19 prediction models, Wynants and colleagues {cite}`wynants2020prediction` found that "proposed models are poorly reported, at high risk of bias, and their reported performance is probably optimistic." They recommend that systematic reporting guidelines such as the TRIPOD statement should be followed, in order to minimise the harm that could arise from using such models in clinical decision-making.
+In a more recent review of the published and preprint reports of COVID-19 prediction models, Wynants and colleagues {cite}`wynants2020` found that "proposed models are poorly reported, at high risk of bias, and their reported performance is probably optimistic." They recommend that systematic reporting guidelines such as the TRIPOD statement should be followed, in order to minimise the harm that could arise from using such models in clinical decision-making.
 
 In the following sections we offer scientific and ethical rationale for each of the 22 items in the TRIPOD checklist, to enable the teams to *reflect* upon the steps that they should take at the respective stages of the project workflow. Each item includes the original description, and you navigate through the additional components using the associated tabs:
 
@@ -40,4 +40,6 @@ In addition to the use of the TRIPOD checklist and the hypothesis service, which
 
 ## PROBAST: Risk of Bias
 
-It is also worth mentioning that many of the original authors associated with the TRIPOD statement have also developed PROBAST: a tool to assess risk of bias in prediction model studies that was originally designed for systematic reviews and the critical appraisal of prediction model studies (e.g. by researchers or decision makers interested in evidence-based medicine). {cite}`wolff2019` The biases included in our [self-assessment](../bias/bias-intro.md) take a broader, sociotechnical perspective than PROBAST, but the two tools are certainly complementary.
+It is also worth mentioning that many of the original authors associated with the TRIPOD statement have also developed PROBAST: a tool to assess risk of bias in prediction model studies, which was originally designed for systematic reviews and the critical appraisal of prediction model studies (e.g. by researchers or decision makers interested in evidence-based medicine). {cite}`wolff2019a`
+
+The biases included in our [self-assessment](../bias/bias-intro.md) take a broader, sociotechnical perspective than PROBAST, but the two tools are certainly complementary.
