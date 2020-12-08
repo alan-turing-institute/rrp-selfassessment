@@ -44,7 +44,7 @@ These concerns are exacerbated by the increased pressures of a global pandemic (
 
 However, a systematic and transparent approach to the reporting of clinical studies can help to minimise some of the challenges associated with research waste by promoting best practices, such as accessibility and reproducibility (e.g. replication studies or those that assess generalisability and risk of bias in published models). {cite}`collins2015` Moreover, for research projects with the potential for significant social impact, transparent and reliable reporting is also an important pre-requisite of responsible public communication. {cite}`spiegelhalter2020`
 
-For instance, one risk is that the uncertainty inherent in all mathematical models is improperly communicated, enabling inappropriate use of a model's predictions (e.g. about future infection rates or impacts of various scenarios) by political actors with vested interests. As Andrea Saltelli and colleagues argue {cite}`saltelli2020a`,
+For instance, one risk is that the uncertainty inherent in all mathematical models is improperly communicated, enabling inappropriate use of a model's predictions (e.g. about future infection rates or impacts of various scenarios) by political actors with vested interests. As Andrea Saltelli and colleagues argue {cite}`saltelli2020`,
 
 > "Modellers must not be permitted to project more certainty than their models deserve; and politicians must not be allowed to offload accountability to models of their choosing."
 

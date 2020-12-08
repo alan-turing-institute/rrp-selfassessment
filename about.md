@@ -22,13 +22,13 @@ The hypothesis service is activated on every page in this book. You can see the 
 The first time you use either of these features, you will be prompted to sign-up or log-in. Doing so will also allow you to create private collections of annotations and highlights that you can use within your team, as demonstrated in the following video:
 
 <video width=100% controls autoplay>
-<source src="https://github.com/chrisdburr/rrp-selfassessment/blob/gh-pages/movies/new-group.mp4?raw=true" type=video/mp4>
+<source src="https://github.com/alan-turing-institute/rrp-selfassessment/blob/gh-pages/movies/new-group.mp4?raw=true" type=video/mp4>
 </video>
 
 Once you are signed in and have created a group you can then highlight and annotate any part of the text within this book (as shown below):
 
 <video width=100% controls autoplay>
-<source src="https://github.com/chrisdburr/rrp-selfassessment/blob/gh-pages/movies/annotate.mp4?raw=true" type=video/mp4>
+<source src="https://github.com/alan-turing-institute/rrp-selfassessment/blob/gh-pages/movies/annotate.mp4?raw=true" type=video/mp4>
 </video>
 
 For further instructions on how to use this service, including how to download your comments through an API, visit the [hypothesis website](https://web.hypothes.is).
