@@ -4,15 +4,15 @@ tags: introduction
 
 # Introduction
 
-Welcome to the Responsible Research Practices Self-Assessment. This online resource has been designed to help you reflect on some of the ethical challenges associated with the DECOVID projects, and also ensure that the actions you take throughout your project's lifecycle are properly reported and communicated in a responsible manner.
+Welcome to the Responsible Research Practices Self-Assessment. This online resource has been designed to help you reflect on some of the ethical challenges associated with research projects that involve data science or other data-driven technologies (e.g. machine learning) in the context of healthcare. It also helps ensure that the actions you take throughout your project's lifecycle are properly reported and communicated in a responsible manner.
 
-This introduction acts a motivation for the guide itself. It includes a short summary of what is meant by the term 'responsible research practices', discusses the significance of bias mitigation in the context of health, and explains the importance of transparent research.
+This introduction acts a motivation for the guide itself. It includes a short summary of what is meant by the term 'responsible research practices', discusses the significance of bias mitigation in the context of healthcare, and explains the importance of transparent research.
 
 In the next section you will find more detailed guidance about [how to use the guide](about.md), as well as a description of the two main components: [bias self-assessment](bias/bias-intro.md) and a [transparent reporting reflect-list](transparent-reporting/transparent-reporting.md).
 
 ## Responsible Research Practices
 
-Research and innovation in data science has played a key role in supporting a coordinated, global response to the COVID-19 pandemic. Diagnostic imaging, including chest x-rays and CT scans, has produced vast streams of radiological data that can be used to develop ML models {cite}`bachtiger2020`; smartphone apps have been deployed to track self-reported symptoms and predict probable infection {cite}`menni2020`; and mobility, transportation and traffic activity data from the city of London is being combined and analysed to understand the impact of social distancing measures {cite}`projectodysseus2020`.
+Research and innovation in healthcare is a vital means of ensuring that patient and public health are safeguarded. For instance, data science has played a key role in supporting a coordinated, global response to the COVID-19 pandemic. Diagnostic imaging, including chest x-rays and CT scans, has produced vast streams of radiological data that can be used to develop ML models {cite}`bachtiger2020`; smartphone apps have been deployed to track self-reported symptoms and predict probable infection {cite}`menni2020`; and mobility, transportation and traffic activity data from the city of London is being combined and analysed to understand the impact of social distancing measures {cite}`projectodysseus2020`.
 
 These examples represent just the tip of the iceberg when it comes to the use of ML/AI in research that addresses the COVID-19 pandemic. Moreover, the body of literature involving AI and data science applications for understanding the COVID-19 pandemic is rapidly growing. However, if research fails to consider properly the social and clinical context, then there is a real risk of producing research that will fail to have any significant clinical or scientific value, or worse, exacerbate healthcare inequalities by introducing bias. This would not just be a scientific failing, but an ethical failing as well. As Rosenthal {cite}`rosenthal1994` argued,
 
