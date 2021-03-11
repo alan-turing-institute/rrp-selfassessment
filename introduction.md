@@ -64,4 +64,4 @@ For keyboard navigation, <kbd>Up Arrow</kbd> and <kbd>Down Arrow</kbd>keys can b
 
 This book is a living document and work-in-progress.
 
-We have plans to update, improve, and revise it. Therefore, if you want to contribute or have any feedback, we would encourage you to get in touch: cburr@turing.ac.uk
+We have plans to update, improve, and revise it. Therefore, if you want to contribute or have any feedback, we would encourage you to get in touch: <a href="mailto:cburr@turing.ac.uk">cburr@turing.ac.uk</a> 
