@@ -54,9 +54,9 @@ In addition to the transparent reporting *reflect-list* (based on the TRIPOD che
 
 We would like to make this guidance accessible for as many people as possible. Therefore, you can:
 
-    - zoom in up to 300% without the text spilling off the screen
-    - navigate most of the website using just a keyboard
-    - use a screen reader or translation tool on most of the content
+- zoom in up to 300% without the text spilling off the screen
+- navigate most of the website using just a keyboard
+- use a screen reader or translation tool on most of the content
 
 For keyboard navigation, <kbd>Up Arrow</kbd> and <kbd>Down Arrow</kbd>keys can be used to scroll up and down on the current page. <kbd>Left Arrow</kbd> and <kbd>Right Arrow</kbd> keys can be used to move forwards and backwards through the pages of the book. Tabbed content (including code example) can be focused using the <kbd>Tab</kbd> key. <kbd>Left Arrow</kbd> and <kbd>Right Arrow</kbd> keys are then used to focus the required tab option, where <kbd>Enter</kbd> can be used to select that option and display the associated content.
 
