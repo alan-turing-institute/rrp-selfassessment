@@ -24,10 +24,11 @@ html:
 sphinx:
   config:
     language: en
+    html_show_copyright: false
 
 # Information about where the book exists on the web
-# repository:
-  # url: https://github.com/executablebooks/jupyter-book  # Online location of your book
+repository:
+  url: https://github.com/alan-turing-institute/rrp-selfassessment  # Online location of your book
   # path_to_book: docs  # Optional path to your book, relative to the repository root
   # branch: master  # Which branch of the repository should be used when creating links (optional)
 
