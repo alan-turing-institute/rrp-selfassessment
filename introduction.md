@@ -49,3 +49,19 @@ For instance, one risk is that the uncertainty inherent in all mathematical mode
 > "Modellers must not be permitted to project more certainty than their models deserve; and politicians must not be allowed to offload accountability to models of their choosing."
 
 In addition to the transparent reporting *reflect-list* (based on the TRIPOD checklist {cite}`collins2015`) presented in this guide, interested readers also find a recent piece by Michael Blastland and colleagues, tited '[Five Rules for Evidence Communication](https://www.nature.com/articles/d41586-020-03189-1)' a useful guide. {cite}`blastland2020`
+
+## Accessibility Statement
+
+We would like to make this guidance accessible for as many people as possible. Therefore, you can:
+
+    - zoom in up to 300% without the text spilling off the screen
+    - navigate most of the website using just a keyboard
+    - use a screen reader or translation tool on most of the content
+
+For keyboard navigation, {kbd}Up Arrow and {kbd}Down Arrowkeys can be used to scroll up and down on the current page. {kbd}Left Arrow and {kbd}Right Arrow keys can be used to move forwards and backwards through the pages of the book. Tabbed content (including code example) can be focused using the {kbd}Tab key. {kbd}Left Arrow and {kbd}Right Arrow keys are then used to focus the required tab option, where {kbd}Enter can be used to select that option and display the associated content.
+
+## How to Contribute
+
+This book is a living document and work-in-progress.
+
+We have plans to update, improve, and revise it. Therefore, if you want to contribute or have any feedback, we would encourage you to get in touch: cburr@turing.ac.uk

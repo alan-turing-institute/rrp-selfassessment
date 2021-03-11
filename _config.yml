@@ -1,7 +1,7 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: 
+title:
 author: Ethics Theme, Public Policy Programme
 logo: rrp-logo.png
 
@@ -19,6 +19,11 @@ latex:
 html:
   comments:
     hypothesis: true
+
+#accessibility
+sphinx:
+  config:
+    language: en
 
 # Information about where the book exists on the web
 # repository:
