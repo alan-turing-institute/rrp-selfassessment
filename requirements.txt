@@ -1,3 +1,7 @@
-jupyter-book
-matplotlib
-numpy
+pandas==1.0.5
+numpy==1.19.0
+matplotlib==3.2.2
+datascience
+folium
+jupyter-book==0.8.2
+sphinxcontrib-bibtex==1.0.0
