@@ -43,7 +43,6 @@
     <script src="../_static/togglebutton.js"></script>
     <script src="../_static/clipboard.min.js"></script>
     <script src="../_static/copybutton.js"></script>
-    <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../_static/sphinx-book-theme.7d483ff0a819d6edff12ce0b1ead3928.js"></script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
@@ -222,6 +221,22 @@
 
             <!-- Source interaction buttons -->
 
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/alan-turing-institute/rrp-selfassessment"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/alan-turing-institute/rrp-selfassessment/issues/new?title=Issue%20on%20page%20%2Ftransparent-reporting/tr-introduction.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
 
             <!-- Full screen (wrap in <a> to have style consistency -->
             <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
@@ -273,23 +288,23 @@
 <p>Explain the medical context (including whether diagnostic or prognostic) and rationale for developing or validating the multivariable prediction model, including references to existing models. This includes an explanation the rationale behind the intended use, the choice of patients, and the definition of outcome.</p>
 </div>
 <div class="tabbed-set docutils">
-<input checked="checked" id="546ef953-cc1e-4585-8b01-4e9b3c7790b7" name="2ee37fa2-3d18-45e1-a176-be5f1d67ea46" type="radio">
-</input><label class="tabbed-label" for="546ef953-cc1e-4585-8b01-4e9b3c7790b7">
+<input checked="checked" id="cd84badd-5d1d-4d11-a705-c122da3a13a8" name="0375f080-5d23-4dcb-80e3-df9bb14dd77d" type="radio">
+</input><label class="tabbed-label" for="cd84badd-5d1d-4d11-a705-c122da3a13a8">
 Scientific Rationale</label><div class="tabbed-content docutils">
 <ul class="simple">
 <li><p>Helps to specify the particular use, purpose, and rationale of the prediction model, conditional on the medical context of the study.</p></li>
 </ul>
 </div>
-<input id="0fdb463c-34a1-483f-bb44-1220e2149c57" name="2ee37fa2-3d18-45e1-a176-be5f1d67ea46" type="radio">
-</input><label class="tabbed-label" for="0fdb463c-34a1-483f-bb44-1220e2149c57">
+<input id="83139d0b-da7d-4d66-a958-9161b534d71c" name="0375f080-5d23-4dcb-80e3-df9bb14dd77d" type="radio">
+</input><label class="tabbed-label" for="83139d0b-da7d-4d66-a958-9161b534d71c">
 Ethical Rationale</label><div class="tabbed-content docutils">
 <ul class="simple">
 <li><p>Mitigates risk of discriminatory harm that could arise as a result of misapplication of the model in an inappropriate clincial context (e.g. group of patients to whom the results of the study do not generalise)</p></li>
 <li><p>Enhances interpretability of the model by providing explanatorily important contextual features about the potential clinical uses of the model (e.g. to inform patients diagnosed with a certain disease about the risk of a negative outcome); Enables greater transparency by providing the rationale behind outcome definition.</p></li>
 </ul>
 </div>
-<input id="5f570729-c09f-4fc6-979b-65b7baa1bb93" name="2ee37fa2-3d18-45e1-a176-be5f1d67ea46" type="radio">
-</input><label class="tabbed-label" for="5f570729-c09f-4fc6-979b-65b7baa1bb93">
+<input id="1566c334-9b79-44f2-9975-356f66b9ca82" name="0375f080-5d23-4dcb-80e3-df9bb14dd77d" type="radio">
+</input><label class="tabbed-label" for="1566c334-9b79-44f2-9975-356f66b9ca82">
 Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
 <div class="figure align-default" id="workflow-stage-3a">
 <img alt="../_images/p-c.png" src="../_images/p-c.png" />
@@ -304,22 +319,22 @@ Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
 <p>Specify the objectives, including whether the study describes the development or validation of the model or both.</p>
 </div>
 <div class="tabbed-set docutils">
-<input checked="checked" id="12c76efe-5d1c-4815-ad55-dbba9e371304" name="cb0d84c8-af46-42a8-b74e-7cc63d2c7ea8" type="radio">
-</input><label class="tabbed-label" for="12c76efe-5d1c-4815-ad55-dbba9e371304">
+<input checked="checked" id="8db48d2c-4aed-4e9f-b757-47d2e5a4e1dd" name="d0d12683-414f-42ec-9b0f-a628b0779932" type="radio">
+</input><label class="tabbed-label" for="8db48d2c-4aed-4e9f-b757-47d2e5a4e1dd">
 Scientific Rationale</label><div class="tabbed-content docutils">
 <ul class="simple">
 <li><p>Clearly identifying the specific aims of research questions enables readers to critically appraise the study’s objectives.</p></li>
 </ul>
 </div>
-<input id="bcd8a2f6-bdfe-43df-80f9-af703e3bea18" name="cb0d84c8-af46-42a8-b74e-7cc63d2c7ea8" type="radio">
-</input><label class="tabbed-label" for="bcd8a2f6-bdfe-43df-80f9-af703e3bea18">
+<input id="477bd893-3cc3-48fa-8df8-5ea538f4ad16" name="d0d12683-414f-42ec-9b0f-a628b0779932" type="radio">
+</input><label class="tabbed-label" for="477bd893-3cc3-48fa-8df8-5ea538f4ad16">
 Ethical Rationale</label><div class="tabbed-content docutils">
 <ul class="simple">
 <li><p>Increases longer term sustainability of research by supporting the understanding and critical engagement of the wider scientific community and practices</p></li>
 </ul>
 </div>
-<input id="c56fe514-26fe-4a1e-b1f4-e5cc21140d60" name="cb0d84c8-af46-42a8-b74e-7cc63d2c7ea8" type="radio">
-</input><label class="tabbed-label" for="c56fe514-26fe-4a1e-b1f4-e5cc21140d60">
+<input id="409c798d-4eaa-4faf-9dbc-778755268940" name="d0d12683-414f-42ec-9b0f-a628b0779932" type="radio">
+</input><label class="tabbed-label" for="409c798d-4eaa-4faf-9dbc-778755268940">
 Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
 <div class="figure align-default" id="workflow-stage-3b">
 <img alt="../_images/p-c.png" src="../_images/p-c.png" />

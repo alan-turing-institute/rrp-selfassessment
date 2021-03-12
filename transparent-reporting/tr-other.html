@@ -43,7 +43,6 @@
     <script src="../_static/togglebutton.js"></script>
     <script src="../_static/clipboard.min.js"></script>
     <script src="../_static/copybutton.js"></script>
-    <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../_static/sphinx-book-theme.7d483ff0a819d6edff12ce0b1ead3928.js"></script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
@@ -222,6 +221,22 @@
 
             <!-- Source interaction buttons -->
 
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/alan-turing-institute/rrp-selfassessment"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/alan-turing-institute/rrp-selfassessment/issues/new?title=Issue%20on%20page%20%2Ftransparent-reporting/tr-other.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
 
             <!-- Full screen (wrap in <a> to have style consistency -->
             <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
@@ -273,8 +288,8 @@
 <p>Provide information about the availability of supplementary resources, such as study protocol, Web calculator, and data sets.</p>
 </div>
 <div class="tabbed-set docutils">
-<input checked="checked" id="7a3f0f05-afb9-48ac-bbe7-32ec14aae437" name="362657c2-b01d-4a3f-85e0-45977c301e89" type="radio">
-</input><label class="tabbed-label" for="7a3f0f05-afb9-48ac-bbe7-32ec14aae437">
+<input checked="checked" id="87f4c2f7-1ca0-41a5-97f4-f969c4b1f229" name="68cec130-76e0-4f0a-977a-5240e16620e7" type="radio">
+</input><label class="tabbed-label" for="87f4c2f7-1ca0-41a5-97f4-f969c4b1f229">
 Scientific Rationale</label><div class="tabbed-content docutils">
 <ul class="simple">
 <li><p>A study protocol is an important component of prediction model research and development, which provides details such as a clear research aim, study design, description of predictors and outcome, and a statistical analysis plan. Including this protocol can allow readers to compare what was planned with what was actually performed or achieved.</p></li>
@@ -282,15 +297,15 @@ Scientific Rationale</label><div class="tabbed-content docutils">
 <li><p>Where privacy concerns do not prevent sharing, datasets and code allow subsequent research to reproduce or replicate findings.</p></li>
 </ul>
 </div>
-<input id="0d0155a5-b960-4f40-96b8-9accd15523a4" name="362657c2-b01d-4a3f-85e0-45977c301e89" type="radio">
-</input><label class="tabbed-label" for="0d0155a5-b960-4f40-96b8-9accd15523a4">
+<input id="ea7391a5-6dd1-47f4-8b5b-c0366641a240" name="68cec130-76e0-4f0a-977a-5240e16620e7" type="radio">
+</input><label class="tabbed-label" for="ea7391a5-6dd1-47f4-8b5b-c0366641a240">
 Ethical Rationale</label><div class="tabbed-content docutils">
 <ul class="simple">
 <li><p>Providing supplementary information can enhance the sustainability of the study by supporting open research efforts (e.g. responsible data sharing, open source software, open hardware, open access, open notebooks).</p></li>
 </ul>
 </div>
-<input id="6683fe7b-2982-4cd3-87a2-8129e3b9c6e4" name="362657c2-b01d-4a3f-85e0-45977c301e89" type="radio">
-</input><label class="tabbed-label" for="6683fe7b-2982-4cd3-87a2-8129e3b9c6e4">
+<input id="f76d35ca-202f-4d15-9e5f-1886d92ef49b" name="68cec130-76e0-4f0a-977a-5240e16620e7" type="radio">
+</input><label class="tabbed-label" for="f76d35ca-202f-4d15-9e5f-1886d92ef49b">
 Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
 <div class="figure align-default" id="workflow-stage-21">
 <img alt="../_images/c.png" src="../_images/c.png" />
@@ -305,22 +320,22 @@ Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
 <p>Give the source of funding and the role of the funders for the present study.</p>
 </div>
 <div class="tabbed-set docutils">
-<input checked="checked" id="0e421d70-af66-469c-b2cd-3a099703587b" name="566bf683-10a8-44db-98ee-b7d15cab9723" type="radio">
-</input><label class="tabbed-label" for="0e421d70-af66-469c-b2cd-3a099703587b">
+<input checked="checked" id="0bd83985-607e-40df-86d8-fa06e4886d15" name="53769ce7-8dd2-45b5-87de-b1e02480b0fd" type="radio">
+</input><label class="tabbed-label" for="0bd83985-607e-40df-86d8-fa06e4886d15">
 Scientific Rationale</label><div class="tabbed-content docutils">
 <ul class="simple">
 <li><p>Disclosure of funding is an important part of transparency, as it allows readers to independently judge whether there is a risk of bias in the study’s findings. It is also important to disclose when no funding was received.</p></li>
 </ul>
 </div>
-<input id="813fc874-a249-4ae1-9258-9d4355875c46" name="566bf683-10a8-44db-98ee-b7d15cab9723" type="radio">
-</input><label class="tabbed-label" for="813fc874-a249-4ae1-9258-9d4355875c46">
+<input id="7e6c16bf-a512-4301-8421-400ca34c7b0a" name="53769ce7-8dd2-45b5-87de-b1e02480b0fd" type="radio">
+</input><label class="tabbed-label" for="7e6c16bf-a512-4301-8421-400ca34c7b0a">
 Ethical Rationale</label><div class="tabbed-content docutils">
 <ul class="simple">
 <li><p>In addition to identifying and evaluating a possible risk of bias in industry funded studies, disclosure of funding can also help funders identify over- or under-funded areas, which may contribute to systemic inequities in health research (e.g. lack of funding for diseases that disproportionately affect vulnerable or marginalised groups).</p></li>
 </ul>
 </div>
-<input id="09075d6b-e914-4792-9362-7de107a94883" name="566bf683-10a8-44db-98ee-b7d15cab9723" type="radio">
-</input><label class="tabbed-label" for="09075d6b-e914-4792-9362-7de107a94883">
+<input id="c0b82f75-e37a-4725-b2e5-60b982f1c293" name="53769ce7-8dd2-45b5-87de-b1e02480b0fd" type="radio">
+</input><label class="tabbed-label" for="c0b82f75-e37a-4725-b2e5-60b982f1c293">
 Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
 <div class="figure align-default" id="workflow-stage-22">
 <img alt="../_images/c.png" src="../_images/c.png" />
