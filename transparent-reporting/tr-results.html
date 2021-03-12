@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Results</title>
     
-  <link rel="stylesheet" href="../_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
+  <link rel="stylesheet" href="../_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
 
     
   <link rel="stylesheet"
@@ -26,7 +26,7 @@
 
     
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="../_static/sphinx-book-theme.2d2078699c18a0efb88233928e1cf6ed.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.c441f2ba0852f4cabcb80105e3a46ae6.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
@@ -34,19 +34,18 @@
     <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
     <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
     
-  <link rel="preload" as="script" href="../_static/js/index.3da636dd464baa7582d2.js">
+  <link rel="preload" as="script" href="../_static/js/index.d3f166471bb80abb5163.js">
 
     <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
     <script src="../_static/underscore.js"></script>
     <script src="../_static/doctools.js"></script>
-    <script src="../_static/language_data.js"></script>
     <script src="../_static/togglebutton.js"></script>
     <script src="../_static/clipboard.min.js"></script>
     <script src="../_static/copybutton.js"></script>
     <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="../_static/sphinx-book-theme.be0a4a0c39cd630af62a2fcf693f3f06.js"></script>
+    <script src="../_static/sphinx-book-theme.7d483ff0a819d6edff12ce0b1ead3928.js"></script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script >
         const thebe_selector = ".thebe"
@@ -81,15 +80,12 @@
   
   
 </a>
-</div>
-
-<form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
   <i class="icon fas fa-search"></i>
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
 </form>
-
 <nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
-  <ul class="nav sidenav_l1">
+    <ul class="nav sidenav_l1">
  <li class="toctree-l1">
   <a class="reference internal" href="../introduction.html">
    Introduction
@@ -102,16 +98,40 @@
    About This Guide
   </a>
  </li>
- <li class="toctree-l1">
+ <li class="toctree-l1 collapsible-parent">
   <a class="reference internal" href="../bias/bias-intro.html">
    Bias Self-Assessment
   </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="../bias/general-biases.html">
+     General Biases
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../bias/project-biases.html">
+     Project Design and Pre-processing Biases
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../bias/model-biases.html">
+     Model Development Biases
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../bias/deployment-biases.html">
+     Communication and Deployment Biases
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
  </li>
- <li class="toctree-l1 current active">
+ <li class="toctree-l1 current active collapsible-parent">
   <a class="reference internal" href="transparent-reporting.html">
    Transparent Reporting Reflect-list
   </a>
-  <ul class="current">
+  <ul class="current collapse-ul">
    <li class="toctree-l2">
     <a class="reference internal" href="tr-title.html">
      Title and Abstract
@@ -143,6 +163,8 @@
     </a>
    </li>
   </ul>
+  <i class="fas fa-chevron-down">
+  </i>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../references.html">
@@ -151,9 +173,7 @@
  </li>
 </ul>
 
-</nav>
-
- <!-- To handle the deprecated key -->
+</nav> <!-- To handle the deprecated key -->
 
 <div class="navbar_extra_footer">
   Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
@@ -168,25 +188,25 @@
           
 <main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
     
-    <div class="row topbar fixed-top container-xl">
-    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
-    </div>
-    <div class="col pl-2 topbar-main">
-        
-        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
-            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
-            aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
-            title="Toggle navigation" data-toggle="tooltip" data-placement="left">
-            <i class="fas fa-bars"></i>
-            <i class="fas fa-arrow-left"></i>
-            <i class="fas fa-arrow-up"></i>
-        </button>
-        
-        <div class="dropdown-buttons-trigger">
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
     <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
             class="fas fa-download"></i></button>
 
-    
     <div class="dropdown-buttons">
         <!-- ipynb file if we had a myst markdown file -->
         
@@ -198,26 +218,27 @@
         <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
             onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
     </div>
-    
 </div>
-        <!-- Source interaction buttons -->
+
+            <!-- Source interaction buttons -->
 
 
-        <!-- Full screen (wrap in <a> to have style consistency -->
-        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
-                data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
-                title="Fullscreen mode"><i
-                    class="fas fa-expand"></i></button></a>
+            <!-- Full screen (wrap in <a> to have style consistency -->
+            <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                    data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+                    title="Fullscreen mode"><i
+                        class="fas fa-expand"></i></button></a>
 
-        <!-- Launch buttons -->
+            <!-- Launch buttons -->
 
-    </div>
+        </div>
 
-    <!-- Table of contents -->
-    <div class="d-none d-md-block col-md-2 bd-toc show">
-        
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
         <div class="tocsection onthispage pt-5 pb-3">
-            <i class="fas fa-list"></i> Contents
+            <i class="fas fa-list"></i>
+            Contents
         </div>
         <nav id="bd-toc-nav">
             <ul class="nav section-nav flex-column">
@@ -270,6 +291,7 @@
 
         </nav>
         
+        </div>
     </div>
 </div>
     <div id="main-content" class="row">
@@ -286,22 +308,22 @@
 <p>Describe the flow of participants through the study, including the number of participants with and without the outcome and, if applicable, a summary of the follow-up time. A diagram may be helpful.</p>
 </div>
 <div class="tabbed-set docutils">
-<input checked="checked" id="83bbc884-abf9-4bfe-ab74-3ae4133dda02" name="71be2188-2088-422e-a5f0-12d1790edf0a" type="radio">
-</input><label class="tabbed-label" for="83bbc884-abf9-4bfe-ab74-3ae4133dda02">
+<input checked="checked" id="0fb95271-507b-40a4-9026-cbe863b16241" name="6844a382-ebde-4e0c-a769-e6249f2c6c5b" type="radio">
+</input><label class="tabbed-label" for="0fb95271-507b-40a4-9026-cbe863b16241">
 Scientific Rationale</label><div class="tabbed-content docutils">
 <ul class="simple">
 <li><p>The source of the study cohort (e.g. how patients were selected from a larger initial group) provides important contextal information about how the prediction model can be validated or applied.</p></li>
 </ul>
 </div>
-<input id="5a4f253d-9439-4ad7-962f-de2eaa17dab5" name="71be2188-2088-422e-a5f0-12d1790edf0a" type="radio">
-</input><label class="tabbed-label" for="5a4f253d-9439-4ad7-962f-de2eaa17dab5">
+<input id="fdccd08e-f56f-437c-8558-a6937e77b657" name="6844a382-ebde-4e0c-a769-e6249f2c6c5b" type="radio">
+</input><label class="tabbed-label" for="fdccd08e-f56f-437c-8558-a6937e77b657">
 Ethical Rationale</label><div class="tabbed-content docutils">
 <ul class="simple">
 <li><p>Explicitly representing the flow of participants (e.g. in a flow diagram) can support domain-specific expertise to identify possible sources of bias (e.g. different practices across sites in a multi-site trail that influence measurement of predictors).</p></li>
 </ul>
 </div>
-<input id="6b7da7f2-46dd-4bf8-833a-314b4fe0244e" name="71be2188-2088-422e-a5f0-12d1790edf0a" type="radio">
-</input><label class="tabbed-label" for="6b7da7f2-46dd-4bf8-833a-314b4fe0244e">
+<input id="727c11ae-81ac-4719-9e26-109620c15db1" name="6844a382-ebde-4e0c-a769-e6249f2c6c5b" type="radio">
+</input><label class="tabbed-label" for="727c11ae-81ac-4719-9e26-109620c15db1">
 Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
 <div class="figure align-default" id="workflow-stage-13a">
 <img alt="../_images/p-m-c.png" src="../_images/p-m-c.png" />
@@ -316,24 +338,24 @@ Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
 <p>Describe the characteristics of the participants (basic demographics, clinical features, available predictors), including the number of participants with missing data for predictors and outcome.</p>
 </div>
 <div class="tabbed-set docutils">
-<input checked="checked" id="0683ac35-d824-4942-bcf5-73917fd7774e" name="ae32ccb5-3b65-4cea-9844-82fed9facfcb" type="radio">
-</input><label class="tabbed-label" for="0683ac35-d824-4942-bcf5-73917fd7774e">
+<input checked="checked" id="2364d3f9-ed6d-442f-9656-3c8525ae4c7d" name="e0504edf-7725-43f5-a555-134d0cbe2b8c" type="radio">
+</input><label class="tabbed-label" for="2364d3f9-ed6d-442f-9656-3c8525ae4c7d">
 Scientific Rationale</label><div class="tabbed-content docutils">
 <ul class="simple">
 <li><p>A clear description of the distribution of relevant characteristics of the study participants is necessary to allow readers to judge the context, case mix, and study setting (e.g. prevalence, mean or median with standard deviation, or interquartile range).</p></li>
 <li><p>Relevant information pertaining to how the characteristics were recorded should also be included and the decisions justified (e.g. for ‘race’ was the information self-reported or perceived).</p></li>
 </ul>
 </div>
-<input id="8d032b5a-80d3-4fe0-88ee-b0dca2b1d382" name="ae32ccb5-3b65-4cea-9844-82fed9facfcb" type="radio">
-</input><label class="tabbed-label" for="8d032b5a-80d3-4fe0-88ee-b0dca2b1d382">
+<input id="718e0dc3-6d1e-41d7-9e9a-f654767702be" name="e0504edf-7725-43f5-a555-134d0cbe2b8c" type="radio">
+</input><label class="tabbed-label" for="718e0dc3-6d1e-41d7-9e9a-f654767702be">
 Ethical Rationale</label><div class="tabbed-content docutils">
 <ul class="simple">
 <li><p>Descriptions of demographic information are crucial for conveying limitations of the model, but they could also expose additional sources of bias in the prediction study. For example, a predictor for ‘race’ could be self-identified or perceived, or may be a source of significant missing data if individuals did not identify with a limited set of options imposed at the measurement stage.</p></li>
 <li><p>Multiple predictors, such race, gender, or age may interact in complex ways in sub-groups revealing patterns of historic inequality (e.g. disparate treatment).</p></li>
 </ul>
 </div>
-<input id="42c696e3-988a-4233-9ccb-37711566edf4" name="ae32ccb5-3b65-4cea-9844-82fed9facfcb" type="radio">
-</input><label class="tabbed-label" for="42c696e3-988a-4233-9ccb-37711566edf4">
+<input id="0a6a1f83-ad13-495c-add5-7b5138c616a3" name="e0504edf-7725-43f5-a555-134d0cbe2b8c" type="radio">
+</input><label class="tabbed-label" for="0a6a1f83-ad13-495c-add5-7b5138c616a3">
 Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
 <div class="figure align-default" id="workflow-stage-13b">
 <img alt="../_images/p.png" src="../_images/p.png" />
@@ -348,22 +370,22 @@ Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
 <p>For validation, show a comparison with the development data of the distribution of important variables (demographics, predictors and outcome).</p>
 </div>
 <div class="tabbed-set docutils">
-<input checked="checked" id="bd5c8d5d-d3f6-4840-ae50-5bdd755da27b" name="05e22d73-f685-4f63-81c9-1dee6b1f382d" type="radio">
-</input><label class="tabbed-label" for="bd5c8d5d-d3f6-4840-ae50-5bdd755da27b">
+<input checked="checked" id="2991d8e6-8b38-4945-92a9-2974b8e4c032" name="8ad6aead-b0f1-44c8-b70a-c66ae1bffcaf" type="radio">
+</input><label class="tabbed-label" for="2991d8e6-8b38-4945-92a9-2974b8e4c032">
 Scientific Rationale</label><div class="tabbed-content docutils">
 <ul class="simple">
 <li><p>Validation studies are often done with similar participant groups to the original development study, but may also intentionally differ. In both cases it is important to clearly describe the distribution of the relevant characteristics (as above in item 13b).</p></li>
 </ul>
 </div>
-<input id="af502e5f-f03d-4845-8e1c-a88e239a0861" name="05e22d73-f685-4f63-81c9-1dee6b1f382d" type="radio">
-</input><label class="tabbed-label" for="af502e5f-f03d-4845-8e1c-a88e239a0861">
+<input id="56e5a426-18b7-46ff-b2e6-d763fe9d20df" name="8ad6aead-b0f1-44c8-b70a-c66ae1bffcaf" type="radio">
+</input><label class="tabbed-label" for="56e5a426-18b7-46ff-b2e6-d763fe9d20df">
 Ethical Rationale</label><div class="tabbed-content docutils">
 <ul class="simple">
 <li><p>To secure transparent comparison between a prediction model and its validation study, it is important to make similarities and differences between the respective datasets, predictors and outcomes as clear and accessible as possible. This helps to support evaluation of the validation study, signals limitations and enables justified confidence in its veracity.</p></li>
 </ul>
 </div>
-<input id="b8a318f7-21dc-4a62-a5cc-858e2b15e08c" name="05e22d73-f685-4f63-81c9-1dee6b1f382d" type="radio">
-</input><label class="tabbed-label" for="b8a318f7-21dc-4a62-a5cc-858e2b15e08c">
+<input id="d0f02dae-83f7-4359-b586-9da8590ed7a4" name="8ad6aead-b0f1-44c8-b70a-c66ae1bffcaf" type="radio">
+</input><label class="tabbed-label" for="d0f02dae-83f7-4359-b586-9da8590ed7a4">
 Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
 <div class="figure align-default" id="workflow-stage-13c">
 <img alt="../_images/m.png" src="../_images/m.png" />
@@ -378,23 +400,23 @@ Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
 <p>Specify the number of participants and outcome events in each analysis.</p>
 </div>
 <div class="tabbed-set docutils">
-<input checked="checked" id="e493b6e5-a3f7-4c62-9a5a-d46a8aa4c289" name="6339ee58-22bd-48f1-981d-532fdaa62754" type="radio">
-</input><label class="tabbed-label" for="e493b6e5-a3f7-4c62-9a5a-d46a8aa4c289">
+<input checked="checked" id="387502c1-5eaa-4b14-bc0c-5a4239b41c1c" name="b0341fe0-0b3b-4d86-b882-9680e1bb8747" type="radio">
+</input><label class="tabbed-label" for="387502c1-5eaa-4b14-bc0c-5a4239b41c1c">
 Scientific Rationale</label><div class="tabbed-content docutils">
 <ul class="simple">
 <li><p>Information about the number of participants and outcome events (i.e. effective sample size) is important for assessing the risk for overfitting in a prediction study.</p></li>
 <li><p>This should reference the section on missing data (e.g. noting how many participants with missing data were included and what imputation methods were used).</p></li>
 </ul>
 </div>
-<input id="40cef797-afac-45c5-b860-2261812b1c7f" name="6339ee58-22bd-48f1-981d-532fdaa62754" type="radio">
-</input><label class="tabbed-label" for="40cef797-afac-45c5-b860-2261812b1c7f">
+<input id="0fdcb22d-fe4e-424e-81da-f9ad2eb3eb2a" name="b0341fe0-0b3b-4d86-b882-9680e1bb8747" type="radio">
+</input><label class="tabbed-label" for="0fdcb22d-fe4e-424e-81da-f9ad2eb3eb2a">
 Ethical Rationale</label><div class="tabbed-content docutils">
 <ul class="simple">
 <li><p>If a dataset does not contain a sufficient number of participants and a sufficient amount of data for outcome events, it may fail to appropriately generalise. This will lead to a poorly performing model that runs a high risk of doing harm.</p></li>
 </ul>
 </div>
-<input id="90574905-c5fb-4038-9ae2-6cd0833a49e0" name="6339ee58-22bd-48f1-981d-532fdaa62754" type="radio">
-</input><label class="tabbed-label" for="90574905-c5fb-4038-9ae2-6cd0833a49e0">
+<input id="d8acde3e-23bb-4977-befc-d03eaa77b93c" name="b0341fe0-0b3b-4d86-b882-9680e1bb8747" type="radio">
+</input><label class="tabbed-label" for="d8acde3e-23bb-4977-befc-d03eaa77b93c">
 Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
 <div class="figure align-default" id="workflow-stage-14a">
 <img alt="../_images/p-m.png" src="../_images/p-m.png" />
@@ -409,22 +431,22 @@ Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
 <p>If done, report the unadjusted association between each candidate predictor and outcome.</p>
 </div>
 <div class="tabbed-set docutils">
-<input checked="checked" id="2777478d-e872-4edf-95f5-9b85660c0fb4" name="72429512-35bf-47cd-ae4d-4527ed3c0d83" type="radio">
-</input><label class="tabbed-label" for="2777478d-e872-4edf-95f5-9b85660c0fb4">
+<input checked="checked" id="047ecc36-d559-4df1-a5a6-32cf00e76048" name="0976aa02-44ff-4c7f-9600-2ce0536d473d" type="radio">
+</input><label class="tabbed-label" for="047ecc36-d559-4df1-a5a6-32cf00e76048">
 Scientific Rationale</label><div class="tabbed-content docutils">
 <ul class="simple">
 <li><p>Unadjusted results can be used as a baseline against which to compare the adjusted results in a final prediction model.</p></li>
 </ul>
 </div>
-<input id="eedb0fe1-a8bc-407a-8cf4-43c6cc1e0ba3" name="72429512-35bf-47cd-ae4d-4527ed3c0d83" type="radio">
-</input><label class="tabbed-label" for="eedb0fe1-a8bc-407a-8cf4-43c6cc1e0ba3">
+<input id="2e69124d-91e8-41d5-8a12-838f113359fc" name="0976aa02-44ff-4c7f-9600-2ce0536d473d" type="radio">
+</input><label class="tabbed-label" for="2e69124d-91e8-41d5-8a12-838f113359fc">
 Ethical Rationale</label><div class="tabbed-content docutils">
 <ul class="simple">
 <li><p>Providing a clear understanding of unadjusted and adjusted associations between candidate predictors and outcomes underwrites the transparency of the model and provides better visibility of limitations that arise from missing data.</p></li>
 </ul>
 </div>
-<input id="bc9301ae-98df-4a90-a61d-25204807ab92" name="72429512-35bf-47cd-ae4d-4527ed3c0d83" type="radio">
-</input><label class="tabbed-label" for="bc9301ae-98df-4a90-a61d-25204807ab92">
+<input id="7e4ae35d-6015-4458-9052-51e83aa9b090" name="0976aa02-44ff-4c7f-9600-2ce0536d473d" type="radio">
+</input><label class="tabbed-label" for="7e4ae35d-6015-4458-9052-51e83aa9b090">
 Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
 <div class="figure align-default" id="workflow-stage-14b">
 <img alt="../_images/p-m.png" src="../_images/p-m.png" />
@@ -439,22 +461,22 @@ Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
 <p>Present the full prediction model to allow predictions for individuals (i.e., all regression coefficients, and model intercept or baseline survival at a given time point).</p>
 </div>
 <div class="tabbed-set docutils">
-<input checked="checked" id="6310f99c-6390-4d3d-a7e1-cba3de7fb678" name="562bdcfb-d214-448f-842e-f398f3b8f1bc" type="radio">
-</input><label class="tabbed-label" for="6310f99c-6390-4d3d-a7e1-cba3de7fb678">
+<input checked="checked" id="e688154a-cbbe-4ede-8a67-20d4e7371de7" name="a6f7e873-c410-4b31-a8eb-6172b141263d" type="radio">
+</input><label class="tabbed-label" for="e688154a-cbbe-4ede-8a67-20d4e7371de7">
 Scientific Rationale</label><div class="tabbed-content docutils">
 <ul class="simple">
 <li><p>Providing adequate details for the prediction model allows individual predictions to be made, supporting subsequent validation studies and clinical practice.</p></li>
 </ul>
 </div>
-<input id="ecb88ec0-4037-4a94-bab8-e736c76f12a8" name="562bdcfb-d214-448f-842e-f398f3b8f1bc" type="radio">
-</input><label class="tabbed-label" for="ecb88ec0-4037-4a94-bab8-e736c76f12a8">
+<input id="5c1b5c97-a7b3-43d9-881f-c54c99da9dc9" name="a6f7e873-c410-4b31-a8eb-6172b141263d" type="radio">
+</input><label class="tabbed-label" for="5c1b5c97-a7b3-43d9-881f-c54c99da9dc9">
 Ethical Rationale</label><div class="tabbed-content docutils">
 <ul class="simple">
 <li><p>Detailed reporting of the prediction model (e.g. how the predictors were coded) supports implementation of the model in a clinical setting and enhances its reproducibility and interpretability—important requirements for clinical practice.</p></li>
 </ul>
 </div>
-<input id="abd28b2f-9e60-45f3-b72c-4e8d361c3900" name="562bdcfb-d214-448f-842e-f398f3b8f1bc" type="radio">
-</input><label class="tabbed-label" for="abd28b2f-9e60-45f3-b72c-4e8d361c3900">
+<input id="cf5d5bf3-b10f-4d23-affb-e4b72b715f57" name="a6f7e873-c410-4b31-a8eb-6172b141263d" type="radio">
+</input><label class="tabbed-label" for="cf5d5bf3-b10f-4d23-affb-e4b72b715f57">
 Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
 <div class="figure align-default" id="workflow-stage-15a">
 <img alt="../_images/m-c.png" src="../_images/m-c.png" />
@@ -469,22 +491,22 @@ Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
 <p>Explain how to the use the prediction model.</p>
 </div>
 <div class="tabbed-set docutils">
-<input checked="checked" id="e838e2f8-4619-446b-bb6c-13cd571e53b5" name="1c60583a-d30c-4999-980d-6bbb4c6eaa02" type="radio">
-</input><label class="tabbed-label" for="e838e2f8-4619-446b-bb6c-13cd571e53b5">
+<input checked="checked" id="af4e055a-3b6b-44df-a119-0ec0cc205a19" name="2d4032d5-c453-4005-a417-9409c92de301" type="radio">
+</input><label class="tabbed-label" for="af4e055a-3b6b-44df-a119-0ec0cc205a19">
 Scientific Rationale</label><div class="tabbed-content docutils">
 <ul class="simple">
 <li><p>Additional documentation should be included about how the prediction should and should not be used (i.e. the intended application and domain), in order to support individual predictions and risk scores.</p></li>
 </ul>
 </div>
-<input id="4982dcb9-7596-4aa2-b521-af5ed25f175b" name="1c60583a-d30c-4999-980d-6bbb4c6eaa02" type="radio">
-</input><label class="tabbed-label" for="4982dcb9-7596-4aa2-b521-af5ed25f175b">
+<input id="f7f47792-4bbd-4809-8639-c5596307ab00" name="2d4032d5-c453-4005-a417-9409c92de301" type="radio">
+</input><label class="tabbed-label" for="f7f47792-4bbd-4809-8639-c5596307ab00">
 Ethical Rationale</label><div class="tabbed-content docutils">
 <ul class="simple">
 <li><p>Preparing model users to apply prediction results knowledgeably and responsibly is a key component of trustworthy implementation. This involves anticipating what sort of training and information are needed to build readiness into user capacity and deployment mechanisms. In cases where the model is intended to support clinical practice, the prediction model may be a simplified scoring system (i.e. easily computable by hand). This is an important virtue of prediction models, but should also be considered alongside additional factors such as interpretability (i.e. can the user derive an explanation from the prediction model).</p></li>
 </ul>
 </div>
-<input id="007878dc-4284-48b1-93b1-67255ca4ea3b" name="1c60583a-d30c-4999-980d-6bbb4c6eaa02" type="radio">
-</input><label class="tabbed-label" for="007878dc-4284-48b1-93b1-67255ca4ea3b">
+<input id="bfad3cb0-0c45-4748-983c-366649d779e0" name="2d4032d5-c453-4005-a417-9409c92de301" type="radio">
+</input><label class="tabbed-label" for="bfad3cb0-0c45-4748-983c-366649d779e0">
 Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
 <div class="figure align-default" id="workflow-stage-15b">
 <img alt="../_images/c.png" src="../_images/c.png" />
@@ -499,21 +521,21 @@ Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
 <p>Report performance measures (with CIs) for the prediction model.</p>
 </div>
 <div class="tabbed-set docutils">
-<input checked="checked" id="5c495ac6-ce54-42af-9d66-482dcc8acf81" name="aa16f102-a96c-4351-8c75-15db051e64ff" type="radio">
-</input><label class="tabbed-label" for="5c495ac6-ce54-42af-9d66-482dcc8acf81">
+<input checked="checked" id="5bd59e48-da9b-4537-91bf-0840289f3de2" name="eb14228e-5a00-42ab-acb0-2f13d502fef7" type="radio">
+</input><label class="tabbed-label" for="5bd59e48-da9b-4537-91bf-0840289f3de2">
 Scientific Rationale</label><div class="tabbed-content docutils">
 <p>• Performance measures should be reported with confidence intervals to allow critical evaluation of the study. If a model has been simplified (e.g. for use in clinical practice), performance measures for both the original and simplified models should be reported.</p>
 </div>
-<input id="33dc04b2-0d80-4f57-a3b5-6bcf2e656b63" name="aa16f102-a96c-4351-8c75-15db051e64ff" type="radio">
-</input><label class="tabbed-label" for="33dc04b2-0d80-4f57-a3b5-6bcf2e656b63">
+<input id="cb660338-d69a-45a2-b027-ff6cfdcc99ef" name="eb14228e-5a00-42ab-acb0-2f13d502fef7" type="radio">
+</input><label class="tabbed-label" for="cb660338-d69a-45a2-b027-ff6cfdcc99ef">
 Ethical Rationale</label><div class="tabbed-content docutils">
 <ul class="simple">
 <li><p>Understanding the performance of a model is a vital factor in assessing the risks of implementing it in clinical practice, alongside other complementary factors (e.g. interpretability, useability). Likewise, understanding different performance metrics (eg. sensitivity, specificity, precision, etc.) is critical for responsibly applying results to specific use cases.</p></li>
 <li><p>Where relevant, differential performance should be reported according to the sub-groups studied to allow users of the model to assess risk of bias and to understand the model’s limitations.</p></li>
 </ul>
 </div>
-<input id="46ebc953-539e-4581-b89c-7d45639d51cf" name="aa16f102-a96c-4351-8c75-15db051e64ff" type="radio">
-</input><label class="tabbed-label" for="46ebc953-539e-4581-b89c-7d45639d51cf">
+<input id="99812e02-ed06-43f5-becd-71bf4ba9a085" name="eb14228e-5a00-42ab-acb0-2f13d502fef7" type="radio">
+</input><label class="tabbed-label" for="99812e02-ed06-43f5-becd-71bf4ba9a085">
 Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
 <div class="figure align-default" id="workflow-stage-16">
 <img alt="../_images/c.png" src="../_images/c.png" />
@@ -528,22 +550,22 @@ Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
 <p>If done, report the results from any model updating (i.e., model specification, model performance).</p>
 </div>
 <div class="tabbed-set docutils">
-<input checked="checked" id="55c6b0b8-884c-49aa-94ca-8e9ae9c5fb69" name="f762ae4b-182c-40bc-adbf-0c3f44e8a6fa" type="radio">
-</input><label class="tabbed-label" for="55c6b0b8-884c-49aa-94ca-8e9ae9c5fb69">
+<input checked="checked" id="ed78f287-8f25-4345-ad57-707e8552d6a5" name="15640aee-fddc-4135-965c-dbb6ce899ccf" type="radio">
+</input><label class="tabbed-label" for="ed78f287-8f25-4345-ad57-707e8552d6a5">
 Scientific Rationale</label><div class="tabbed-content docutils">
 <ul class="simple">
 <li><p>An updated model is effectively a new model and should, therefore, be reported in sufficient detail to enable readers to use the model effectively (i.e. use the model for individual predictions), or further develop/validate the model in subsequent studies.</p></li>
 </ul>
 </div>
-<input id="bacc5b37-e81c-4157-97c0-92628e7725ff" name="f762ae4b-182c-40bc-adbf-0c3f44e8a6fa" type="radio">
-</input><label class="tabbed-label" for="bacc5b37-e81c-4157-97c0-92628e7725ff">
+<input id="dbece2de-3c1f-4c2b-b71d-c17186b0d9fe" name="15640aee-fddc-4135-965c-dbb6ce899ccf" type="radio">
+</input><label class="tabbed-label" for="dbece2de-3c1f-4c2b-b71d-c17186b0d9fe">
 Ethical Rationale</label><div class="tabbed-content docutils">
 <ul class="simple">
 <li><p>In addition to reporting the results of the model updating, the reason for updating the model should also be reported and justified (e.g. to improve performance of the model on a particular sub-group). Model updating and proper reporting of this are components of ensuring that the model is sustainable and safe. It also ensures end-to-end transparency in reporting.</p></li>
 </ul>
 </div>
-<input id="2f185cb0-02db-4e55-96da-8fd41810896b" name="f762ae4b-182c-40bc-adbf-0c3f44e8a6fa" type="radio">
-</input><label class="tabbed-label" for="2f185cb0-02db-4e55-96da-8fd41810896b">
+<input id="7fec65c2-a90c-4359-9872-835bcd44febe" name="15640aee-fddc-4135-965c-dbb6ce899ccf" type="radio">
+</input><label class="tabbed-label" for="7fec65c2-a90c-4359-9872-835bcd44febe">
 Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
 <div class="figure align-default" id="workflow-stage-17">
 <img alt="../_images/c.png" src="../_images/c.png" />
@@ -575,15 +597,15 @@ Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
 
               </div>
               
-        </div>
-    </div>
-    
-    
-    <div class='prev-next-bottom'>
         
+        <div class='prev-next-bottom'>
+            
     <a class='left-prev' id="prev-link" href="tr-methods.html" title="previous page">Methods</a>
     <a class='right-next' id="next-link" href="tr-discussion.html" title="next page">Discussion</a>
 
+        </div>
+        
+        </div>
     </div>
     <footer class="footer mt-5 mt-md-0">
     <div class="container">
@@ -601,7 +623,7 @@ Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
     </div>
 
     
-  <script src="../_static/js/index.3da636dd464baa7582d2.js"></script>
+  <script src="../_static/js/index.d3f166471bb80abb5163.js"></script>
 
 
     

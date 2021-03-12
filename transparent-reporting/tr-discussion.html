@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Discussion</title>
     
-  <link rel="stylesheet" href="../_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
+  <link rel="stylesheet" href="../_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
 
     
   <link rel="stylesheet"
@@ -26,7 +26,7 @@
 
     
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="../_static/sphinx-book-theme.2d2078699c18a0efb88233928e1cf6ed.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.c441f2ba0852f4cabcb80105e3a46ae6.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
@@ -34,19 +34,18 @@
     <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
     <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
     
-  <link rel="preload" as="script" href="../_static/js/index.3da636dd464baa7582d2.js">
+  <link rel="preload" as="script" href="../_static/js/index.d3f166471bb80abb5163.js">
 
     <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
     <script src="../_static/underscore.js"></script>
     <script src="../_static/doctools.js"></script>
-    <script src="../_static/language_data.js"></script>
     <script src="../_static/togglebutton.js"></script>
     <script src="../_static/clipboard.min.js"></script>
     <script src="../_static/copybutton.js"></script>
     <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="../_static/sphinx-book-theme.be0a4a0c39cd630af62a2fcf693f3f06.js"></script>
+    <script src="../_static/sphinx-book-theme.7d483ff0a819d6edff12ce0b1ead3928.js"></script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script >
         const thebe_selector = ".thebe"
@@ -81,15 +80,12 @@
   
   
 </a>
-</div>
-
-<form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
   <i class="icon fas fa-search"></i>
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
 </form>
-
 <nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
-  <ul class="nav sidenav_l1">
+    <ul class="nav sidenav_l1">
  <li class="toctree-l1">
   <a class="reference internal" href="../introduction.html">
    Introduction
@@ -102,16 +98,40 @@
    About This Guide
   </a>
  </li>
- <li class="toctree-l1">
+ <li class="toctree-l1 collapsible-parent">
   <a class="reference internal" href="../bias/bias-intro.html">
    Bias Self-Assessment
   </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="../bias/general-biases.html">
+     General Biases
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../bias/project-biases.html">
+     Project Design and Pre-processing Biases
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../bias/model-biases.html">
+     Model Development Biases
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../bias/deployment-biases.html">
+     Communication and Deployment Biases
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
  </li>
- <li class="toctree-l1 current active">
+ <li class="toctree-l1 current active collapsible-parent">
   <a class="reference internal" href="transparent-reporting.html">
    Transparent Reporting Reflect-list
   </a>
-  <ul class="current">
+  <ul class="current collapse-ul">
    <li class="toctree-l2">
     <a class="reference internal" href="tr-title.html">
      Title and Abstract
@@ -143,6 +163,8 @@
     </a>
    </li>
   </ul>
+  <i class="fas fa-chevron-down">
+  </i>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../references.html">
@@ -151,9 +173,7 @@
  </li>
 </ul>
 
-</nav>
-
- <!-- To handle the deprecated key -->
+</nav> <!-- To handle the deprecated key -->
 
 <div class="navbar_extra_footer">
   Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
@@ -168,25 +188,25 @@
           
 <main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
     
-    <div class="row topbar fixed-top container-xl">
-    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
-    </div>
-    <div class="col pl-2 topbar-main">
-        
-        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
-            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
-            aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
-            title="Toggle navigation" data-toggle="tooltip" data-placement="left">
-            <i class="fas fa-bars"></i>
-            <i class="fas fa-arrow-left"></i>
-            <i class="fas fa-arrow-up"></i>
-        </button>
-        
-        <div class="dropdown-buttons-trigger">
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
     <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
             class="fas fa-download"></i></button>
 
-    
     <div class="dropdown-buttons">
         <!-- ipynb file if we had a myst markdown file -->
         
@@ -198,26 +218,27 @@
         <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
             onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
     </div>
-    
 </div>
-        <!-- Source interaction buttons -->
+
+            <!-- Source interaction buttons -->
 
 
-        <!-- Full screen (wrap in <a> to have style consistency -->
-        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
-                data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
-                title="Fullscreen mode"><i
-                    class="fas fa-expand"></i></button></a>
+            <!-- Full screen (wrap in <a> to have style consistency -->
+            <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                    data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+                    title="Fullscreen mode"><i
+                        class="fas fa-expand"></i></button></a>
 
-        <!-- Launch buttons -->
+            <!-- Launch buttons -->
 
-    </div>
+        </div>
 
-    <!-- Table of contents -->
-    <div class="d-none d-md-block col-md-2 bd-toc show">
-        
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
         <div class="tocsection onthispage pt-5 pb-3">
-            <i class="fas fa-list"></i> Contents
+            <i class="fas fa-list"></i>
+            Contents
         </div>
         <nav id="bd-toc-nav">
             <ul class="nav section-nav flex-column">
@@ -245,6 +266,7 @@
 
         </nav>
         
+        </div>
     </div>
 </div>
     <div id="main-content" class="row">
@@ -261,22 +283,22 @@
 <p>Discuss any limitations of the study (such as nonrepresentative sample, few events per predictor, missing data).</p>
 </div>
 <div class="tabbed-set docutils">
-<input checked="checked" id="b0e4d41a-07db-46da-930e-9890b1ef70ba" name="ead92161-5b11-4780-aa5a-e6b7a42a869a" type="radio">
-</input><label class="tabbed-label" for="b0e4d41a-07db-46da-930e-9890b1ef70ba">
+<input checked="checked" id="d0de746d-1ae9-4ce0-91d3-c8fcc71106ba" name="d2a088e2-3086-4c72-9c8d-9466aca8cf89" type="radio">
+</input><label class="tabbed-label" for="d0de746d-1ae9-4ce0-91d3-c8fcc71106ba">
 Scientific Rationale</label><div class="tabbed-content docutils">
 <ul class="simple">
 <li><p>Limitations should be placed in perspective (e.g. current research directions and practices) and each that is problem identified should include a critical discussion of how the problem may lead to potentially unintended social impacts, including any associated uncertainty.</p></li>
 </ul>
 </div>
-<input id="a051d8bc-abe7-46fd-ab4b-990edf2e03ea" name="ead92161-5b11-4780-aa5a-e6b7a42a869a" type="radio">
-</input><label class="tabbed-label" for="a051d8bc-abe7-46fd-ab4b-990edf2e03ea">
+<input id="66914911-6701-4c38-b3f4-ebd527c1e906" name="d2a088e2-3086-4c72-9c8d-9466aca8cf89" type="radio">
+</input><label class="tabbed-label" for="66914911-6701-4c38-b3f4-ebd527c1e906">
 Ethical Rationale</label><div class="tabbed-content docutils">
 <ul class="simple">
 <li><p>Reporting limitations offers researchers the opportunity to reflect on and deliberate over the possible impacts of their study (e.g. on scientific or social practices), including the degree of uncertainty associated with these impacts. Doing so offers researchers an opportunity to exercise responsibility, to engage in reflexive practices, and to strengthen their research by connecting with subsequent research efforts that may be able to address the identified impacts.</p></li>
 </ul>
 </div>
-<input id="de10eb72-a15c-4e63-86d3-d6e4a5737f5f" name="ead92161-5b11-4780-aa5a-e6b7a42a869a" type="radio">
-</input><label class="tabbed-label" for="de10eb72-a15c-4e63-86d3-d6e4a5737f5f">
+<input id="b55eb761-f68a-48a2-bd07-d6f2321d48be" name="d2a088e2-3086-4c72-9c8d-9466aca8cf89" type="radio">
+</input><label class="tabbed-label" for="b55eb761-f68a-48a2-bd07-d6f2321d48be">
 Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
 <div class="figure align-default" id="workflow-stage-18">
 <img alt="../_images/p-m-c.png" src="../_images/p-m-c.png" />
@@ -291,22 +313,22 @@ Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
 <p>For validation, discuss the results with reference to performance in the development data, and any other validation data.</p>
 </div>
 <div class="tabbed-set docutils">
-<input checked="checked" id="7ccb526e-8d01-4dfb-b111-b605beb74604" name="b90db3d3-dfe6-44ee-998f-d654e824c45a" type="radio">
-</input><label class="tabbed-label" for="7ccb526e-8d01-4dfb-b111-b605beb74604">
+<input checked="checked" id="6e7e663a-eae3-4db9-8208-385f9fddbd37" name="5770658b-6d02-4fce-95cf-f8d979fd3976" type="radio">
+</input><label class="tabbed-label" for="6e7e663a-eae3-4db9-8208-385f9fddbd37">
 Scientific Rationale</label><div class="tabbed-content docutils">
 <ul class="simple">
 <li><p>Highlighting and interpreting the main results of a validation study (e.g. how a validated model is similar to or different from the original model) provides an opportunity to contextualise the discussion of the model’s performance alongside additional studies.</p></li>
 </ul>
 </div>
-<input id="4fa15e15-409a-4728-bab4-344d10456a50" name="b90db3d3-dfe6-44ee-998f-d654e824c45a" type="radio">
-</input><label class="tabbed-label" for="4fa15e15-409a-4728-bab4-344d10456a50">
+<input id="9f008b86-e663-41cf-8624-efc137f84fdd" name="5770658b-6d02-4fce-95cf-f8d979fd3976" type="radio">
+</input><label class="tabbed-label" for="9f008b86-e663-41cf-8624-efc137f84fdd">
 Ethical Rationale</label><div class="tabbed-content docutils">
 <ul class="simple">
 <li><p>A contextual discussion of the models performance provides an opportunity to critically evaluate any biases that may have impacted the comparison (e.g. ‘confirmation bias’) and to exercise a responsible attitude towards the reporting of research findings. An accessible interpretation also supports the clear communication of findings to both a technical and a non-technical readership.</p></li>
 </ul>
 </div>
-<input id="5217655b-cf05-4e73-b9f9-e1a416f31d49" name="b90db3d3-dfe6-44ee-998f-d654e824c45a" type="radio">
-</input><label class="tabbed-label" for="5217655b-cf05-4e73-b9f9-e1a416f31d49">
+<input id="36d33e6c-f9dd-44a8-85a7-66677f0fdea7" name="5770658b-6d02-4fce-95cf-f8d979fd3976" type="radio">
+</input><label class="tabbed-label" for="36d33e6c-f9dd-44a8-85a7-66677f0fdea7">
 Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
 <div class="figure align-default" id="workflow-stage-19a">
 <img alt="../_images/c.png" src="../_images/c.png" />
@@ -321,22 +343,22 @@ Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
 <p>Give an overall interpretation of the results, considering objectives, limitations, results from similar studies, and other relevant evidence.</p>
 </div>
 <div class="tabbed-set docutils">
-<input checked="checked" id="9cb9db0d-d3fe-4514-84c2-8d2b1a549ebb" name="09a15ea5-f065-4e25-9614-9619e595c001" type="radio">
-</input><label class="tabbed-label" for="9cb9db0d-d3fe-4514-84c2-8d2b1a549ebb">
+<input checked="checked" id="fa2f3cd1-392d-45b9-a117-59e31c22a87b" name="294f2130-ac0a-4b2c-bd80-b902dd325e4a" type="radio">
+</input><label class="tabbed-label" for="fa2f3cd1-392d-45b9-a117-59e31c22a87b">
 Scientific Rationale</label><div class="tabbed-content docutils">
 <ul class="simple">
 <li><p>Interpreting the results of the study enables researchers to situate their findings within the context of additional evidence (e.g. different models with the same or different outcomes).</p></li>
 </ul>
 </div>
-<input id="84227144-d8fb-4026-b625-a73fc425aac0" name="09a15ea5-f065-4e25-9614-9619e595c001" type="radio">
-</input><label class="tabbed-label" for="84227144-d8fb-4026-b625-a73fc425aac0">
+<input id="665b128f-f475-430f-bd3e-9078ae33b0b9" name="294f2130-ac0a-4b2c-bd80-b902dd325e4a" type="radio">
+</input><label class="tabbed-label" for="665b128f-f475-430f-bd3e-9078ae33b0b9">
 Ethical Rationale</label><div class="tabbed-content docutils">
 <ul class="simple">
 <li><p>Interpreting the results of a study is a reflexive process, which can provide an opportunity to report on findings in a responsible and context-aware manner. For instance, a critical evaluation of the study’s findings, with reference to the original objectives and similar studies, allows subsequent research to build upon the limitations of the study. Over-interpretation of the results can obscure this process and may create harms if the model is implemented in an inappropriate context.</p></li>
 </ul>
 </div>
-<input id="ac77519a-e814-409f-bf65-cd1d1fd9fead" name="09a15ea5-f065-4e25-9614-9619e595c001" type="radio">
-</input><label class="tabbed-label" for="ac77519a-e814-409f-bf65-cd1d1fd9fead">
+<input id="08d06025-af02-431a-8b93-ebf6056fbf40" name="294f2130-ac0a-4b2c-bd80-b902dd325e4a" type="radio">
+</input><label class="tabbed-label" for="08d06025-af02-431a-8b93-ebf6056fbf40">
 Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
 <div class="figure align-default" id="workflow-stage-19b">
 <img alt="../_images/c.png" src="../_images/c.png" />
@@ -351,23 +373,23 @@ Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
 <p>Discuss the potential clinical use of the model and implications for future research.</p>
 </div>
 <div class="tabbed-set docutils">
-<input checked="checked" id="f73c0047-3384-49c5-b70e-1be7377b3577" name="49ca0273-4256-4968-9484-ea1ccf3c0f5b" type="radio">
-</input><label class="tabbed-label" for="f73c0047-3384-49c5-b70e-1be7377b3577">
+<input checked="checked" id="339dcd33-c79d-42b8-a82f-34f0bc471b3c" name="dbf12848-d923-41e2-99bd-042507f11900" type="radio">
+</input><label class="tabbed-label" for="339dcd33-c79d-42b8-a82f-34f0bc471b3c">
 Scientific Rationale</label><div class="tabbed-content docutils">
 <ul class="simple">
 <li><p>Prediction models can have a variety of uses, some of which are likely to be inappropriate given the limitations of the study. For example, newly developed models may be inappropriate to use in safety critical domains without extensive validation. When discussing potential uses, reference can be made to suitable domains for application (e.g. specific patient groups, geographic locations) and appropriate use cases (e.g. to confirm presence of a specific disease, to support human-in-the-loop decision making). Domains or uses that are not suitable for the model can also be discussed, and should include explanatory reasons (e.g. limitations of study based on internal validation only).</p></li>
 </ul>
 </div>
-<input id="8c4a9ee2-d4b9-4cb6-9f37-d453f9da8a16" name="49ca0273-4256-4968-9484-ea1ccf3c0f5b" type="radio">
-</input><label class="tabbed-label" for="8c4a9ee2-d4b9-4cb6-9f37-d453f9da8a16">
+<input id="d32ad131-90a0-418c-956d-e368d1e3c2f3" name="dbf12848-d923-41e2-99bd-042507f11900" type="radio">
+</input><label class="tabbed-label" for="d32ad131-90a0-418c-956d-e368d1e3c2f3">
 Ethical Rationale</label><div class="tabbed-content docutils">
 <ul class="simple">
 <li><p>Discussing the potential uses of a model, and its implications for future research is a core component of responsible research and innovation (e.g. exercising reflexive discussion to identify and anticipate potential impacts of the study or model).</p></li>
 <li><p>The discussion section is also a natural place for researchers to include possible recommendations for being responsive to any unintended consequences that could arise from misuse of the model or study findings. This is additionally a good place to include discussion of the possibility of concept drift and to set out recommendations for future re-evaluation and re-validation.</p></li>
 </ul>
 </div>
-<input id="ad824ca8-9915-4c85-a69a-7f3f5d56871a" name="49ca0273-4256-4968-9484-ea1ccf3c0f5b" type="radio">
-</input><label class="tabbed-label" for="ad824ca8-9915-4c85-a69a-7f3f5d56871a">
+<input id="ce876016-f7eb-43f5-ad1a-5846741fbb39" name="dbf12848-d923-41e2-99bd-042507f11900" type="radio">
+</input><label class="tabbed-label" for="ce876016-f7eb-43f5-ad1a-5846741fbb39">
 Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
 <div class="figure align-default" id="workflow-stage-20">
 <img alt="../_images/c.png" src="../_images/c.png" />
@@ -399,15 +421,15 @@ Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
 
               </div>
               
-        </div>
-    </div>
-    
-    
-    <div class='prev-next-bottom'>
         
+        <div class='prev-next-bottom'>
+            
     <a class='left-prev' id="prev-link" href="tr-results.html" title="previous page">Results</a>
     <a class='right-next' id="next-link" href="tr-other.html" title="next page">Other</a>
 
+        </div>
+        
+        </div>
     </div>
     <footer class="footer mt-5 mt-md-0">
     <div class="container">
@@ -425,7 +447,7 @@ Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
     </div>
 
     
-  <script src="../_static/js/index.3da636dd464baa7582d2.js"></script>
+  <script src="../_static/js/index.d3f166471bb80abb5163.js"></script>
 
 
     

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Other</title>
     
-  <link rel="stylesheet" href="../_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
+  <link rel="stylesheet" href="../_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
 
     
   <link rel="stylesheet"
@@ -26,7 +26,7 @@
 
     
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="../_static/sphinx-book-theme.2d2078699c18a0efb88233928e1cf6ed.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.c441f2ba0852f4cabcb80105e3a46ae6.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
@@ -34,19 +34,18 @@
     <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
     <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
     
-  <link rel="preload" as="script" href="../_static/js/index.3da636dd464baa7582d2.js">
+  <link rel="preload" as="script" href="../_static/js/index.d3f166471bb80abb5163.js">
 
     <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
     <script src="../_static/underscore.js"></script>
     <script src="../_static/doctools.js"></script>
-    <script src="../_static/language_data.js"></script>
     <script src="../_static/togglebutton.js"></script>
     <script src="../_static/clipboard.min.js"></script>
     <script src="../_static/copybutton.js"></script>
     <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="../_static/sphinx-book-theme.be0a4a0c39cd630af62a2fcf693f3f06.js"></script>
+    <script src="../_static/sphinx-book-theme.7d483ff0a819d6edff12ce0b1ead3928.js"></script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script >
         const thebe_selector = ".thebe"
@@ -81,15 +80,12 @@
   
   
 </a>
-</div>
-
-<form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
   <i class="icon fas fa-search"></i>
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
 </form>
-
 <nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
-  <ul class="nav sidenav_l1">
+    <ul class="nav sidenav_l1">
  <li class="toctree-l1">
   <a class="reference internal" href="../introduction.html">
    Introduction
@@ -102,16 +98,40 @@
    About This Guide
   </a>
  </li>
- <li class="toctree-l1">
+ <li class="toctree-l1 collapsible-parent">
   <a class="reference internal" href="../bias/bias-intro.html">
    Bias Self-Assessment
   </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="../bias/general-biases.html">
+     General Biases
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../bias/project-biases.html">
+     Project Design and Pre-processing Biases
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../bias/model-biases.html">
+     Model Development Biases
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../bias/deployment-biases.html">
+     Communication and Deployment Biases
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
  </li>
- <li class="toctree-l1 current active">
+ <li class="toctree-l1 current active collapsible-parent">
   <a class="reference internal" href="transparent-reporting.html">
    Transparent Reporting Reflect-list
   </a>
-  <ul class="current">
+  <ul class="current collapse-ul">
    <li class="toctree-l2">
     <a class="reference internal" href="tr-title.html">
      Title and Abstract
@@ -143,6 +163,8 @@
     </a>
    </li>
   </ul>
+  <i class="fas fa-chevron-down">
+  </i>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../references.html">
@@ -151,9 +173,7 @@
  </li>
 </ul>
 
-</nav>
-
- <!-- To handle the deprecated key -->
+</nav> <!-- To handle the deprecated key -->
 
 <div class="navbar_extra_footer">
   Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
@@ -168,25 +188,25 @@
           
 <main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
     
-    <div class="row topbar fixed-top container-xl">
-    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
-    </div>
-    <div class="col pl-2 topbar-main">
-        
-        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
-            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
-            aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
-            title="Toggle navigation" data-toggle="tooltip" data-placement="left">
-            <i class="fas fa-bars"></i>
-            <i class="fas fa-arrow-left"></i>
-            <i class="fas fa-arrow-up"></i>
-        </button>
-        
-        <div class="dropdown-buttons-trigger">
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
     <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
             class="fas fa-download"></i></button>
 
-    
     <div class="dropdown-buttons">
         <!-- ipynb file if we had a myst markdown file -->
         
@@ -198,26 +218,27 @@
         <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
             onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
     </div>
-    
 </div>
-        <!-- Source interaction buttons -->
+
+            <!-- Source interaction buttons -->
 
 
-        <!-- Full screen (wrap in <a> to have style consistency -->
-        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
-                data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
-                title="Fullscreen mode"><i
-                    class="fas fa-expand"></i></button></a>
+            <!-- Full screen (wrap in <a> to have style consistency -->
+            <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                    data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+                    title="Fullscreen mode"><i
+                        class="fas fa-expand"></i></button></a>
 
-        <!-- Launch buttons -->
+            <!-- Launch buttons -->
 
-    </div>
+        </div>
 
-    <!-- Table of contents -->
-    <div class="d-none d-md-block col-md-2 bd-toc show">
-        
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
         <div class="tocsection onthispage pt-5 pb-3">
-            <i class="fas fa-list"></i> Contents
+            <i class="fas fa-list"></i>
+            Contents
         </div>
         <nav id="bd-toc-nav">
             <ul class="nav section-nav flex-column">
@@ -235,6 +256,7 @@
 
         </nav>
         
+        </div>
     </div>
 </div>
     <div id="main-content" class="row">
@@ -251,8 +273,8 @@
 <p>Provide information about the availability of supplementary resources, such as study protocol, Web calculator, and data sets.</p>
 </div>
 <div class="tabbed-set docutils">
-<input checked="checked" id="56d21070-f8c9-4454-a562-702493cfd30c" name="ce557f9c-43bc-465c-8b0d-43c58193f4ed" type="radio">
-</input><label class="tabbed-label" for="56d21070-f8c9-4454-a562-702493cfd30c">
+<input checked="checked" id="a51147ce-c83c-4dcf-bdff-e4446c876a6a" name="1ee45c6a-13ee-440e-a6d1-12b22d37a5c8" type="radio">
+</input><label class="tabbed-label" for="a51147ce-c83c-4dcf-bdff-e4446c876a6a">
 Scientific Rationale</label><div class="tabbed-content docutils">
 <ul class="simple">
 <li><p>A study protocol is an important component of prediction model research and development, which provides details such as a clear research aim, study design, description of predictors and outcome, and a statistical analysis plan. Including this protocol can allow readers to compare what was planned with what was actually performed or achieved.</p></li>
@@ -260,15 +282,15 @@ Scientific Rationale</label><div class="tabbed-content docutils">
 <li><p>Where privacy concerns do not prevent sharing, datasets and code allow subsequent research to reproduce or replicate findings.</p></li>
 </ul>
 </div>
-<input id="11631836-5733-4c01-b5b5-235c576ae9d3" name="ce557f9c-43bc-465c-8b0d-43c58193f4ed" type="radio">
-</input><label class="tabbed-label" for="11631836-5733-4c01-b5b5-235c576ae9d3">
+<input id="2a22121f-f9c2-466c-a719-cc42a4777bb7" name="1ee45c6a-13ee-440e-a6d1-12b22d37a5c8" type="radio">
+</input><label class="tabbed-label" for="2a22121f-f9c2-466c-a719-cc42a4777bb7">
 Ethical Rationale</label><div class="tabbed-content docutils">
 <ul class="simple">
 <li><p>Providing supplementary information can enhance the sustainability of the study by supporting open research efforts (e.g. responsible data sharing, open source software, open hardware, open access, open notebooks).</p></li>
 </ul>
 </div>
-<input id="25681c5c-d365-4399-a3c1-f33e294d8aa9" name="ce557f9c-43bc-465c-8b0d-43c58193f4ed" type="radio">
-</input><label class="tabbed-label" for="25681c5c-d365-4399-a3c1-f33e294d8aa9">
+<input id="a6c7e576-3421-4c6f-9e53-4c028eebdac4" name="1ee45c6a-13ee-440e-a6d1-12b22d37a5c8" type="radio">
+</input><label class="tabbed-label" for="a6c7e576-3421-4c6f-9e53-4c028eebdac4">
 Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
 <div class="figure align-default" id="workflow-stage-21">
 <img alt="../_images/c.png" src="../_images/c.png" />
@@ -283,22 +305,22 @@ Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
 <p>Give the source of funding and the role of the funders for the present study.</p>
 </div>
 <div class="tabbed-set docutils">
-<input checked="checked" id="ddedf49d-6fbc-4eb6-ace3-9fecf0a3b2e1" name="84c182a4-4fde-4c38-9378-2bc9edcc54a7" type="radio">
-</input><label class="tabbed-label" for="ddedf49d-6fbc-4eb6-ace3-9fecf0a3b2e1">
+<input checked="checked" id="47e95269-aa77-42fa-97b6-01bb3ad8b099" name="90e85c94-8761-421e-aeaa-34371f7166eb" type="radio">
+</input><label class="tabbed-label" for="47e95269-aa77-42fa-97b6-01bb3ad8b099">
 Scientific Rationale</label><div class="tabbed-content docutils">
 <ul class="simple">
 <li><p>Disclosure of funding is an important part of transparency, as it allows readers to independently judge whether there is a risk of bias in the study’s findings. It is also important to disclose when no funding was received.</p></li>
 </ul>
 </div>
-<input id="b767476e-bb7e-4acf-bcc8-98c2d30c6b10" name="84c182a4-4fde-4c38-9378-2bc9edcc54a7" type="radio">
-</input><label class="tabbed-label" for="b767476e-bb7e-4acf-bcc8-98c2d30c6b10">
+<input id="77c0cfe9-810a-4498-8439-9d516cf0e515" name="90e85c94-8761-421e-aeaa-34371f7166eb" type="radio">
+</input><label class="tabbed-label" for="77c0cfe9-810a-4498-8439-9d516cf0e515">
 Ethical Rationale</label><div class="tabbed-content docutils">
 <ul class="simple">
 <li><p>In addition to identifying and evaluating a possible risk of bias in industry funded studies, disclosure of funding can also help funders identify over- or under-funded areas, which may contribute to systemic inequities in health research (e.g. lack of funding for diseases that disproportionately affect vulnerable or marginalised groups).</p></li>
 </ul>
 </div>
-<input id="9bbc2e8a-ec94-44b7-b5cc-20f48325a552" name="84c182a4-4fde-4c38-9378-2bc9edcc54a7" type="radio">
-</input><label class="tabbed-label" for="9bbc2e8a-ec94-44b7-b5cc-20f48325a552">
+<input id="dc6df689-638b-4250-a32e-65ca9be2ec30" name="90e85c94-8761-421e-aeaa-34371f7166eb" type="radio">
+</input><label class="tabbed-label" for="dc6df689-638b-4250-a32e-65ca9be2ec30">
 Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
 <div class="figure align-default" id="workflow-stage-22">
 <img alt="../_images/c.png" src="../_images/c.png" />
@@ -330,15 +352,15 @@ Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
 
               </div>
               
-        </div>
-    </div>
-    
-    
-    <div class='prev-next-bottom'>
         
+        <div class='prev-next-bottom'>
+            
     <a class='left-prev' id="prev-link" href="tr-discussion.html" title="previous page">Discussion</a>
     <a class='right-next' id="next-link" href="../references.html" title="next page">References</a>
 
+        </div>
+        
+        </div>
     </div>
     <footer class="footer mt-5 mt-md-0">
     <div class="container">
@@ -356,7 +378,7 @@ Relevant Stage(s) of Workflow</label><div class="tabbed-content docutils">
     </div>
 
     
-  <script src="../_static/js/index.3da636dd464baa7582d2.js"></script>
+  <script src="../_static/js/index.d3f166471bb80abb5163.js"></script>
 
 
     

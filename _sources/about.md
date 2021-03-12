@@ -1,5 +1,5 @@
 ---
-tags: introduction
+tags: about
 ---
 
 # About This Guide
