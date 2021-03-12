@@ -4,7 +4,7 @@ tags: introduction
 
 # Introduction
 
-Welcome to the Responsible Research Practices Self-Assessment. This online resource has been designed to help you reflect on some of the ethical challenges associated with research projects that involve data science or other data-driven technologies (e.g. machine learning) in the context of healthcare. It also helps ensure that the actions you take throughout your project's lifecycle are properly reported and communicated in a responsible manner.
+Welcome to the Responsible Research Practices Self-Assessment. This online guide has been designed to help you reflect on some of the ethical challenges associated with research projects that involve data science or other data-driven technologies (e.g. machine learning) in the context of healthcare. It also helps ensure that the actions you take throughout your project's lifecycle are properly reported and communicated in a responsible manner.
 
 This introduction acts a motivation for the guide itself. It includes a short summary of what is meant by the term 'responsible research practices', discusses the significance of bias mitigation in the context of healthcare, and explains the importance of transparent research.
 
