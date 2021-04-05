@@ -1,12 +1,12 @@
 ---
-tags: about
+tags: about, rrp-guide
 ---
 
 # About This Guide
 
 The purpose of this guide is two-fold:
 
-- To provide the project teams with a means for reflecting upon the steps taken within the team to mitigate the effects of social, statistical, and cognitive biases throughout the project lifecycle, and
+- To provide project teams with a means for reflecting upon the steps taken within the team to mitigate the effects of social, statistical, and cognitive biases throughout the project lifecycle, and
 - To report and communicate these methods in a systematic, transparent, and accessible manner.
 
 As such, the guide is split into two sections that address the above goals: a [bias self-assessment](section:bias) and a [transparent reporting reflect-list](section:transparent). These two sections are interconnected through reference to a common [project workflow](section:projectworkflow).
