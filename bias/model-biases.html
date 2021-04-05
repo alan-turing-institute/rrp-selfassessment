@@ -4,7 +4,8 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17: http://docutils.sourceforge.net/" />
+
     <title>Model Development Biases</title>
     
   <link rel="stylesheet" href="../_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
@@ -26,7 +27,7 @@
 
     
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="../_static/sphinx-book-theme.c441f2ba0852f4cabcb80105e3a46ae6.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.e7340bb3dbd8dde6db86f25597f54a1b.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
@@ -294,13 +295,15 @@
         
               <div>
                 
-  <div class="section" id="model-development-biases">
+  <section id="model-development-biases">
 <h1>Model Development Biases<a class="headerlink" href="#model-development-biases" title="Permalink to this headline">¶</a></h1>
-<div class="figure align-default" id="model-workflow-img">
+<figure class="align-default" id="model-workflow-img">
 <img alt="../_images/m.png" src="../_images/m.png" />
-<p class="caption"><span class="caption-number">Fig. 3 </span><span class="caption-text">A simplified schematic of a project worklow.</span><a class="headerlink" href="#model-workflow-img" title="Permalink to this image">¶</a></p>
-</div>
-<div class="section" id="aggregation-bias">
+<figcaption>
+<p><span class="caption-number">Fig. 3 </span><span class="caption-text">A simplified schematic of a project worklow.</span><a class="headerlink" href="#model-workflow-img" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<section id="aggregation-bias">
 <span id="bias-aggregation"></span><h2>Aggregation Bias<a class="headerlink" href="#aggregation-bias" title="Permalink to this headline">¶</a></h2>
 <div class="dropdown admonition">
 <p class="admonition-title">Definition</p>
@@ -316,8 +319,8 @@ effective for one sub-group over another.</p>
 </ul>
 </div>
 <p>Related biases: <a class="reference internal" href="project-biases.html#bias-representation"><span class="std std-ref">Representation Bias</span></a>, <a class="reference internal" href="project-biases.html#bias-label"><span class="std std-ref">Label Bias</span></a></p>
-</div>
-<div class="section" id="evaluation-bias">
+</section>
+<section id="evaluation-bias">
 <span id="bias-evaluation"></span><h2>Evaluation Bias<a class="headerlink" href="#evaluation-bias" title="Permalink to this headline">¶</a></h2>
 <div class="dropdown admonition">
 <p class="admonition-title">Definition</p>
@@ -336,8 +339,8 @@ wider population (i.e. ecologically valid).</p>
 </ul>
 </div>
 <p>Related biases: <a class="reference internal" href="project-biases.html#bias-representation"><span class="std std-ref">Representation Bias</span></a></p>
-</div>
-<div class="section" id="confounding">
+</section>
+<section id="confounding">
 <span id="bias-confounding"></span><h2>Confounding<a class="headerlink" href="#confounding" title="Permalink to this headline">¶</a></h2>
 <div class="dropdown admonition">
 <p class="admonition-title">Definition</p>
@@ -355,8 +358,8 @@ to a spurious association.</p>
 </ul>
 </div>
 <p>Related biases: <a class="reference internal" href="#bias-collider"><span class="std std-ref">Collider Bias</span></a></p>
-</div>
-<div class="section" id="collider-bias">
+</section>
+<section id="collider-bias">
 <span id="bias-collider"></span><h2>Collider Bias<a class="headerlink" href="#collider-bias" title="Permalink to this headline">¶</a></h2>
 <div class="dropdown admonition">
 <p class="admonition-title">Definition</p>
@@ -367,10 +370,12 @@ collider variable.</p>
 <p>The following image from the Oxford Centre for Evidence Based Medicine’s
 <em>Catalogue of Bias</em> is helpful in illustrating the differences between
 confounders and colliders:</p>
-<div class="figure align-default" id="collider-fig">
+<figure class="align-default" id="collider-fig">
 <img alt="../_images/collider.png" src="../_images/collider.png" />
-<p class="caption"><span class="caption-number">Fig. 4 </span><span class="caption-text">Reprinted from Oxford Centre for Evidence Based Medicine. (2020). Catalogue of Bias. https://catalogofbias.org/biases/collider-bias/</span><a class="headerlink" href="#collider-fig" title="Permalink to this image">¶</a></p>
-</div>
+<figcaption>
+<p><span class="caption-number">Fig. 4 </span><span class="caption-text">Reprinted from Oxford Centre for Evidence Based Medicine. (2020). Catalogue of Bias. https://catalogofbias.org/biases/collider-bias/</span><a class="headerlink" href="#collider-fig" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
 </div>
 <div class="tip admonition">
 <p class="admonition-title">Deliberative Prompts</p>
@@ -380,8 +385,8 @@ confounders and colliders:</p>
 </ul>
 </div>
 <p>Related biases: <a class="reference internal" href="#bias-confounding"><span class="std std-ref">Confounding</span></a>, <a class="reference internal" href="project-biases.html#bias-admissionrate"><span class="std std-ref">Admission Rate Bias</span></a></p>
-</div>
-<div class="section" id="training-serving-skew">
+</section>
+<section id="training-serving-skew">
 <span id="bias-training-servingskew"></span><h2>Training-Serving Skew<a class="headerlink" href="#training-serving-skew" title="Permalink to this headline">¶</a></h2>
 <div class="dropdown admonition">
 <p class="admonition-title">Definition</p>
@@ -397,8 +402,8 @@ individuals whose data was used to train the model.</p>
 </ul>
 </div>
 <p>Related biases: <a class="reference internal" href="project-biases.html#bias-representation"><span class="std std-ref">Representation Bias</span></a></p>
-</div>
-</div>
+</section>
+</section>
 
     <script type="text/x-thebe-config">
     {

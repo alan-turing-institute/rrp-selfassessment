@@ -4,7 +4,8 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17: http://docutils.sourceforge.net/" />
+
     <title>Project Design and Pre-processing Biases</title>
     
   <link rel="stylesheet" href="../_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
@@ -26,7 +27,7 @@
 
     
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="../_static/sphinx-book-theme.c441f2ba0852f4cabcb80105e3a46ae6.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.e7340bb3dbd8dde6db86f25597f54a1b.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
@@ -319,13 +320,15 @@
         
               <div>
                 
-  <div class="section" id="project-design-and-pre-processing-biases">
+  <section id="project-design-and-pre-processing-biases">
 <h1>Project Design and Pre-processing Biases<a class="headerlink" href="#project-design-and-pre-processing-biases" title="Permalink to this headline">¶</a></h1>
-<div class="figure align-default" id="project-workflow-img">
+<figure class="align-default" id="project-workflow-img">
 <img alt="../_images/p.png" src="../_images/p.png" />
-<p class="caption"><span class="caption-number">Fig. 2 </span><span class="caption-text">A simplified schematic of a project worklow.</span><a class="headerlink" href="#project-workflow-img" title="Permalink to this image">¶</a></p>
-</div>
-<div class="section" id="representation-bias">
+<figcaption>
+<p><span class="caption-number">Fig. 2 </span><span class="caption-text">A simplified schematic of a project worklow.</span><a class="headerlink" href="#project-workflow-img" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<section id="representation-bias">
 <span id="bias-representation"></span><h2>Representation Bias<a class="headerlink" href="#representation-bias" title="Permalink to this headline">¶</a></h2>
 <div class="dropdown admonition">
 <p class="admonition-title">Definition</p>
@@ -345,8 +348,8 @@ occur, which are described in more specific biases below.</p>
 </ul>
 </div>
 <p>Related biases: <a class="reference internal" href="#bias-missingdata"><span class="std std-ref">Missing Data Bias</span></a>, <a class="reference internal" href="#bias-label"><span class="std std-ref">Label Bias</span></a>, <a class="reference internal" href="model-biases.html#bias-training-servingskew"><span class="std std-ref">Training-Serving Skew</span></a></p>
-</div>
-<div class="section" id="label-bias">
+</section>
+<section id="label-bias">
 <span id="bias-label"></span><h2>Label Bias<a class="headerlink" href="#label-bias" title="Permalink to this headline">¶</a></h2>
 <div class="dropdown admonition">
 <p class="admonition-title">Definition</p>
@@ -362,8 +365,8 @@ the validity of the model outcomes.</p>
 </ul>
 </div>
 <p>Related biases: <a class="reference internal" href="#bias-representation"><span class="std std-ref">Representation Bias</span></a>, <a class="reference internal" href="#bias-chronological"><span class="std std-ref">Chronological Bias</span></a></p>
-</div>
-<div class="section" id="missing-data-bias">
+</section>
+<section id="missing-data-bias">
 <span id="bias-missingdata"></span><h2>Missing Data Bias<a class="headerlink" href="#missing-data-bias" title="Permalink to this headline">¶</a></h2>
 <div class="dropdown admonition">
 <p class="admonition-title">Definition</p>
@@ -380,8 +383,8 @@ due to clinical deterioration).</p>
 </ul>
 </div>
 <p>Related biases: <a class="reference internal" href="#bias-admissionrate"><span class="std std-ref">Admission Rate Bias</span></a>, <a class="reference internal" href="#bias-diagnosticaccess"><span class="std std-ref">Diagnostic Access Bias</span></a></p>
-</div>
-<div class="section" id="measurement-bias">
+</section>
+<section id="measurement-bias">
 <span id="bias-measurement"></span><h2>Measurement Bias<a class="headerlink" href="#measurement-bias" title="Permalink to this headline">¶</a></h2>
 <div class="dropdown admonition">
 <p class="admonition-title">Definition</p>
@@ -397,8 +400,8 @@ scale that obscures underlying differences between two sub-groups).</p>
 </ul>
 </div>
 <p>Related biases: <a class="reference internal" href="#bias-spectrum"><span class="std std-ref">Spectrum Bias</span></a></p>
-</div>
-<div class="section" id="chronological-bias">
+</section>
+<section id="chronological-bias">
 <span id="bias-chronological"></span><h2>Chronological Bias<a class="headerlink" href="#chronological-bias" title="Permalink to this headline">¶</a></h2>
 <div class="dropdown admonition">
 <p class="admonition-title">Definition</p>
@@ -421,8 +424,8 @@ outcome (e.g. diagnostic result), chronological bias can lead to
 </ul>
 </div>
 <p>Related biases: <a class="reference internal" href="#bias-prevalence-incidence"><span class="std std-ref">Prevalence-Incidence Bias</span></a></p>
-</div>
-<div class="section" id="prevalence-incidence-bias">
+</section>
+<section id="prevalence-incidence-bias">
 <span id="bias-prevalence-incidence"></span><h2>Prevalence-Incidence Bias<a class="headerlink" href="#prevalence-incidence-bias" title="Permalink to this headline">¶</a></h2>
 <div class="dropdown admonition">
 <p class="admonition-title">Definition</p>
@@ -441,8 +444,8 @@ given the abnormally high disease prevalence.</p>
 </ul>
 </div>
 <p>Related biases: <a class="reference internal" href="#bias-chronological"><span class="std std-ref">Chronological Bias</span></a>, <a class="reference internal" href="#bias-missingdata"><span class="std std-ref">Missing Data Bias</span></a></p>
-</div>
-<div class="section" id="admission-rate-bias">
+</section>
+<section id="admission-rate-bias">
 <span id="bias-admissionrate"></span><h2>Admission Rate Bias<a class="headerlink" href="#admission-rate-bias" title="Permalink to this headline">¶</a></h2>
 <div class="dropdown admonition">
 <p class="admonition-title">Definition</p>
@@ -459,8 +462,8 @@ exposure and disease outcomes).</p>
 </ul>
 </div>
 <p>Related biases: <a class="reference internal" href="#bias-chronological"><span class="std std-ref">Chronological Bias</span></a></p>
-</div>
-<div class="section" id="diagnostic-access-bias">
+</section>
+<section id="diagnostic-access-bias">
 <span id="bias-diagnosticaccess"></span><h2>Diagnostic Access Bias<a class="headerlink" href="#diagnostic-access-bias" title="Permalink to this headline">¶</a></h2>
 <div class="dropdown admonition">
 <p class="admonition-title">Definition</p>
@@ -478,8 +481,8 @@ worse treatment for socioeconomically deprived individuals.</p>
 </ul>
 </div>
 <p>Related biases: <a class="reference internal" href="#bias-representation"><span class="std std-ref">Representation Bias</span></a>, <a class="reference internal" href="#bias-admissionrate"><span class="std std-ref">Admission Rate Bias</span></a>, <a class="reference internal" href="#bias-missingdata"><span class="std std-ref">Missing Data Bias</span></a></p>
-</div>
-<div class="section" id="spectrum-bias">
+</section>
+<section id="spectrum-bias">
 <span id="bias-spectrum"></span><h2>Spectrum Bias<a class="headerlink" href="#spectrum-bias" title="Permalink to this headline">¶</a></h2>
 <div class="dropdown admonition">
 <p class="admonition-title">Definition</p>
@@ -496,8 +499,8 @@ of variation in patient characteristics present within these settings.</p>
 </ul>
 </div>
 <p>Related biases: <a class="reference internal" href="#bias-measurement"><span class="std std-ref">Measurement Bias</span></a></p>
-</div>
-<div class="section" id="wrong-sample-size">
+</section>
+<section id="wrong-sample-size">
 <span id="bias-wrongsamplesize"></span><h2>Wrong Sample Size<a class="headerlink" href="#wrong-sample-size" title="Permalink to this headline">¶</a></h2>
 <div class="dropdown admonition">
 <p class="admonition-title">Definition</p>
@@ -514,8 +517,8 @@ large samples.</p>
 </ul>
 </div>
 <p>Related biases: <a class="reference internal" href="#bias-representation"><span class="std std-ref">Representation Bias</span></a></p>
-</div>
-</div>
+</section>
+</section>
 
     <script type="text/x-thebe-config">
     {
